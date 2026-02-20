@@ -1,0 +1,1498 @@
+{
+  "last_updated": "2026-02-10 00:00:00",
+  "metrics": {
+    "total_return": "118.12%",
+    "annual_return": "282.95%",
+    "volatility": "90.89%",
+    "sharpe": "3.11",
+    "max_drawdown": "47.07%",
+    "win_rate": "62.50%",
+    "trades": "24"
+  },
+  "chart_data": [
+    {
+      "date": "2025-07-14",
+      "price": 0.00583336813853,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 77196.76,
+      "signal": 0
+    },
+    {
+      "date": "2025-07-15",
+      "price": 0.00681779248292,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 90224.29,
+      "signal": 0
+    },
+    {
+      "date": "2025-07-16",
+      "price": 0.00583412221743,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 77206.74,
+      "signal": 0
+    },
+    {
+      "date": "2025-07-17",
+      "price": 0.00494341366798,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 65419.41,
+      "signal": 0
+    },
+    {
+      "date": "2025-07-18",
+      "price": 0.00420541763668,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 55653.03,
+      "signal": 0
+    },
+    {
+      "date": "2025-07-19",
+      "price": 0.00411881417652,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 54506.95,
+      "signal": 0
+    },
+    {
+      "date": "2025-07-20",
+      "price": 0.0042321215755,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 56006.42,
+      "signal": 0
+    },
+    {
+      "date": "2025-07-21",
+      "price": 0.00414841020585,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 54898.61,
+      "signal": 0
+    },
+    {
+      "date": "2025-07-22",
+      "price": 0.00380526875335,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 50357.6,
+      "signal": 0
+    },
+    {
+      "date": "2025-07-23",
+      "price": 0.00309136848009,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 40910.09,
+      "signal": 0
+    },
+    {
+      "date": "2025-07-24",
+      "price": 0.00264857681806,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 35050.34,
+      "signal": 1
+    },
+    {
+      "date": "2025-07-25",
+      "price": 0.00273864788127,
+      "strategy_equity": 103400.73,
+      "benchmark_equity": 36242.31,
+      "signal": 1
+    },
+    {
+      "date": "2025-07-26",
+      "price": 0.00285257117089,
+      "strategy_equity": 107702.04,
+      "benchmark_equity": 37749.93,
+      "signal": 0
+    },
+    {
+      "date": "2025-07-27",
+      "price": 0.00262097730704,
+      "strategy_equity": 107704.55,
+      "benchmark_equity": 34685.1,
+      "signal": 0
+    },
+    {
+      "date": "2025-07-28",
+      "price": 0.00244089316563,
+      "strategy_equity": 107704.55,
+      "benchmark_equity": 32301.93,
+      "signal": 0
+    },
+    {
+      "date": "2025-07-29",
+      "price": 0.0028028612069,
+      "strategy_equity": 107704.55,
+      "benchmark_equity": 37092.09,
+      "signal": 0
+    },
+    {
+      "date": "2025-07-30",
+      "price": 0.0027514460003,
+      "strategy_equity": 107704.55,
+      "benchmark_equity": 36411.68,
+      "signal": 0
+    },
+    {
+      "date": "2025-07-31",
+      "price": 0.0025119235723,
+      "strategy_equity": 107704.55,
+      "benchmark_equity": 33241.92,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-01",
+      "price": 0.00256964151977,
+      "strategy_equity": 110179.34,
+      "benchmark_equity": 34005.74,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-02",
+      "price": 0.00276600275349,
+      "strategy_equity": 118598.79,
+      "benchmark_equity": 36604.32,
+      "signal": 0
+    },
+    {
+      "date": "2025-08-03",
+      "price": 0.00291887786706,
+      "strategy_equity": 118611.78,
+      "benchmark_equity": 38627.41,
+      "signal": 0
+    },
+    {
+      "date": "2025-08-04",
+      "price": 0.0031186848917,
+      "strategy_equity": 118611.78,
+      "benchmark_equity": 41271.59,
+      "signal": 0
+    },
+    {
+      "date": "2025-08-05",
+      "price": 0.00324000728879,
+      "strategy_equity": 118611.78,
+      "benchmark_equity": 42877.13,
+      "signal": 0
+    },
+    {
+      "date": "2025-08-06",
+      "price": 0.00341929938149,
+      "strategy_equity": 118611.78,
+      "benchmark_equity": 45249.82,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-07",
+      "price": 0.00356778373242,
+      "strategy_equity": 123762.54,
+      "benchmark_equity": 47214.81,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-08",
+      "price": 0.00338690286636,
+      "strategy_equity": 117487.98,
+      "benchmark_equity": 44821.09,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-09",
+      "price": 0.00313743908318,
+      "strategy_equity": 108834.35,
+      "benchmark_equity": 41519.77,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-10",
+      "price": 0.00311597579795,
+      "strategy_equity": 108089.82,
+      "benchmark_equity": 41235.74,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-11",
+      "price": 0.00345518051645,
+      "strategy_equity": 119856.46,
+      "benchmark_equity": 45724.65,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-12",
+      "price": 0.00400905635953,
+      "strategy_equity": 139069.81,
+      "benchmark_equity": 53054.45,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-13",
+      "price": 0.00397294359465,
+      "strategy_equity": 137817.1,
+      "benchmark_equity": 52576.55,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-14",
+      "price": 0.00359731931916,
+      "strategy_equity": 124787.1,
+      "benchmark_equity": 47605.67,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-15",
+      "price": 0.00347400184948,
+      "strategy_equity": 120509.35,
+      "benchmark_equity": 45973.73,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-16",
+      "price": 0.00348690174062,
+      "strategy_equity": 120956.83,
+      "benchmark_equity": 46144.44,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-17",
+      "price": 0.00365301924436,
+      "strategy_equity": 126719.27,
+      "benchmark_equity": 48342.78,
+      "signal": 0
+    },
+    {
+      "date": "2025-08-18",
+      "price": 0.00310582900821,
+      "strategy_equity": 126719.27,
+      "benchmark_equity": 41101.46,
+      "signal": 0
+    },
+    {
+      "date": "2025-08-19",
+      "price": 0.00281250784086,
+      "strategy_equity": 126719.27,
+      "benchmark_equity": 37219.75,
+      "signal": 0
+    },
+    {
+      "date": "2025-08-20",
+      "price": 0.00313640619635,
+      "strategy_equity": 126719.27,
+      "benchmark_equity": 41506.11,
+      "signal": 0
+    },
+    {
+      "date": "2025-08-21",
+      "price": 0.00280994379634,
+      "strategy_equity": 126719.27,
+      "benchmark_equity": 37185.82,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-22",
+      "price": 0.00320275893539,
+      "strategy_equity": 144433.95,
+      "benchmark_equity": 42384.19,
+      "signal": 0
+    },
+    {
+      "date": "2025-08-23",
+      "price": 0.00313084308544,
+      "strategy_equity": 144433.95,
+      "benchmark_equity": 41432.49,
+      "signal": 0
+    },
+    {
+      "date": "2025-08-24",
+      "price": 0.00291470628493,
+      "strategy_equity": 144433.95,
+      "benchmark_equity": 38572.21,
+      "signal": 0
+    },
+    {
+      "date": "2025-08-25",
+      "price": 0.00263983273967,
+      "strategy_equity": 144433.95,
+      "benchmark_equity": 34934.63,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-26",
+      "price": 0.0028743570863,
+      "strategy_equity": 157274.33,
+      "benchmark_equity": 38038.24,
+      "signal": 0
+    },
+    {
+      "date": "2025-08-27",
+      "price": 0.00300689007759,
+      "strategy_equity": 157274.33,
+      "benchmark_equity": 39792.13,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-28",
+      "price": 0.00350554118057,
+      "strategy_equity": 183356.1,
+      "benchmark_equity": 46391.11,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-29",
+      "price": 0.00350907988212,
+      "strategy_equity": 183541.19,
+      "benchmark_equity": 46437.94,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-30",
+      "price": 0.00343813068379,
+      "strategy_equity": 179830.22,
+      "benchmark_equity": 45499.02,
+      "signal": 1
+    },
+    {
+      "date": "2025-08-31",
+      "price": 0.00335760967125,
+      "strategy_equity": 175618.6,
+      "benchmark_equity": 44433.44,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-01",
+      "price": 0.00340055394049,
+      "strategy_equity": 175618.6,
+      "benchmark_equity": 45001.74,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-02",
+      "price": 0.00389674183408,
+      "strategy_equity": 175618.6,
+      "benchmark_equity": 51568.12,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-03",
+      "price": 0.00407660949431,
+      "strategy_equity": 175618.6,
+      "benchmark_equity": 53948.43,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-04",
+      "price": 0.00427714266493,
+      "strategy_equity": 175618.6,
+      "benchmark_equity": 56602.21,
+      "signal": 1
+    },
+    {
+      "date": "2025-09-05",
+      "price": 0.00462853073551,
+      "strategy_equity": 190046.28,
+      "benchmark_equity": 61252.36,
+      "signal": 1
+    },
+    {
+      "date": "2025-09-06",
+      "price": 0.00453006557941,
+      "strategy_equity": 186003.33,
+      "benchmark_equity": 59949.31,
+      "signal": 1
+    },
+    {
+      "date": "2025-09-07",
+      "price": 0.00486448445496,
+      "strategy_equity": 199734.48,
+      "benchmark_equity": 64374.89,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-08",
+      "price": 0.00473649700251,
+      "strategy_equity": 199733.22,
+      "benchmark_equity": 62681.15,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-09",
+      "price": 0.00476906019071,
+      "strategy_equity": 199733.22,
+      "benchmark_equity": 63112.08,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-10",
+      "price": 0.00562757461971,
+      "strategy_equity": 199733.22,
+      "benchmark_equity": 74473.36,
+      "signal": 1
+    },
+    {
+      "date": "2025-09-11",
+      "price": 0.00591742911842,
+      "strategy_equity": 210020.7,
+      "benchmark_equity": 78309.19,
+      "signal": 1
+    },
+    {
+      "date": "2025-09-12",
+      "price": 0.00622925941251,
+      "strategy_equity": 221088.15,
+      "benchmark_equity": 82435.85,
+      "signal": 1
+    },
+    {
+      "date": "2025-09-13",
+      "price": 0.00747037788874,
+      "strategy_equity": 265137.78,
+      "benchmark_equity": 98860.38,
+      "signal": 1
+    },
+    {
+      "date": "2025-09-14",
+      "price": 0.00800158432215,
+      "strategy_equity": 283991.3,
+      "benchmark_equity": 105890.18,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-15",
+      "price": 0.00861559171371,
+      "strategy_equity": 283987.75,
+      "benchmark_equity": 114015.74,
+      "signal": 1
+    },
+    {
+      "date": "2025-09-16",
+      "price": 0.00781672725419,
+      "strategy_equity": 257659.86,
+      "benchmark_equity": 103443.84,
+      "signal": 1
+    },
+    {
+      "date": "2025-09-17",
+      "price": 0.00819758006138,
+      "strategy_equity": 270213.77,
+      "benchmark_equity": 108483.92,
+      "signal": 1
+    },
+    {
+      "date": "2025-09-18",
+      "price": 0.00781968748632,
+      "strategy_equity": 257757.43,
+      "benchmark_equity": 103483.02,
+      "signal": 1
+    },
+    {
+      "date": "2025-09-19",
+      "price": 0.00716603958212,
+      "strategy_equity": 236211.48,
+      "benchmark_equity": 94832.87,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-20",
+      "price": 0.00697086188136,
+      "strategy_equity": 236210.68,
+      "benchmark_equity": 92249.96,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-21",
+      "price": 0.00654056208251,
+      "strategy_equity": 236210.68,
+      "benchmark_equity": 86555.52,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-22",
+      "price": 0.00569517050135,
+      "strategy_equity": 236210.68,
+      "benchmark_equity": 75367.9,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-23",
+      "price": 0.00583474919624,
+      "strategy_equity": 236210.68,
+      "benchmark_equity": 77215.04,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-24",
+      "price": 0.00563516896571,
+      "strategy_equity": 236210.68,
+      "benchmark_equity": 74573.86,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-25",
+      "price": 0.00502289259586,
+      "strategy_equity": 236210.68,
+      "benchmark_equity": 66471.21,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-26",
+      "price": 0.00525968431783,
+      "strategy_equity": 236210.68,
+      "benchmark_equity": 69604.83,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-27",
+      "price": 0.0051754847055,
+      "strategy_equity": 236210.68,
+      "benchmark_equity": 68490.56,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-28",
+      "price": 0.00595794591034,
+      "strategy_equity": 236210.68,
+      "benchmark_equity": 78845.38,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-29",
+      "price": 0.00576476900784,
+      "strategy_equity": 236210.68,
+      "benchmark_equity": 76288.94,
+      "signal": 0
+    },
+    {
+      "date": "2025-09-30",
+      "price": 0.00594194735421,
+      "strategy_equity": 236210.68,
+      "benchmark_equity": 78633.66,
+      "signal": 0
+    },
+    {
+      "date": "2025-10-01",
+      "price": 0.0070456975285,
+      "strategy_equity": 236210.68,
+      "benchmark_equity": 93240.3,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-02",
+      "price": 0.0070673714825,
+      "strategy_equity": 236915.27,
+      "benchmark_equity": 93527.13,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-03",
+      "price": 0.00687611885543,
+      "strategy_equity": 230504.03,
+      "benchmark_equity": 90996.16,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-04",
+      "price": 0.00667912067298,
+      "strategy_equity": 223900.17,
+      "benchmark_equity": 88389.15,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-05",
+      "price": 0.00642430476221,
+      "strategy_equity": 215358.13,
+      "benchmark_equity": 85017.01,
+      "signal": 0
+    },
+    {
+      "date": "2025-10-06",
+      "price": 0.00620798052601,
+      "strategy_equity": 215356.7,
+      "benchmark_equity": 82154.25,
+      "signal": 0
+    },
+    {
+      "date": "2025-10-07",
+      "price": 0.00642421844695,
+      "strategy_equity": 215356.7,
+      "benchmark_equity": 85015.87,
+      "signal": 0
+    },
+    {
+      "date": "2025-10-08",
+      "price": 0.00615527702461,
+      "strategy_equity": 215356.7,
+      "benchmark_equity": 81456.79,
+      "signal": 0
+    },
+    {
+      "date": "2025-10-09",
+      "price": 0.005544565637,
+      "strategy_equity": 215356.7,
+      "benchmark_equity": 73374.85,
+      "signal": 0
+    },
+    {
+      "date": "2025-10-10",
+      "price": 0.00401030138575,
+      "strategy_equity": 215356.7,
+      "benchmark_equity": 53070.93,
+      "signal": 0
+    },
+    {
+      "date": "2025-10-11",
+      "price": 0.003765235768,
+      "strategy_equity": 215356.7,
+      "benchmark_equity": 49827.82,
+      "signal": 0
+    },
+    {
+      "date": "2025-10-12",
+      "price": 0.00433895834075,
+      "strategy_equity": 215356.7,
+      "benchmark_equity": 57420.26,
+      "signal": 0
+    },
+    {
+      "date": "2025-10-13",
+      "price": 0.00433445688266,
+      "strategy_equity": 215356.7,
+      "benchmark_equity": 57360.69,
+      "signal": 0
+    },
+    {
+      "date": "2025-10-14",
+      "price": 0.00409996501088,
+      "strategy_equity": 215356.7,
+      "benchmark_equity": 54257.51,
+      "signal": 0
+    },
+    {
+      "date": "2025-10-15",
+      "price": 0.00383266393784,
+      "strategy_equity": 215356.7,
+      "benchmark_equity": 50720.14,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-16",
+      "price": 0.0034705039607,
+      "strategy_equity": 195007.0,
+      "benchmark_equity": 45927.44,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-17",
+      "price": 0.00352158132862,
+      "strategy_equity": 197877.03,
+      "benchmark_equity": 46603.38,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-18",
+      "price": 0.00396007723068,
+      "strategy_equity": 222516.04,
+      "benchmark_equity": 52406.28,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-19",
+      "price": 0.00391901832917,
+      "strategy_equity": 220208.94,
+      "benchmark_equity": 51862.92,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-20",
+      "price": 0.00386408752586,
+      "strategy_equity": 217122.39,
+      "benchmark_equity": 51135.99,
+      "signal": 0
+    },
+    {
+      "date": "2025-10-21",
+      "price": 0.00369356028215,
+      "strategy_equity": 217327.73,
+      "benchmark_equity": 48879.29,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-22",
+      "price": 0.00347204688504,
+      "strategy_equity": 204295.41,
+      "benchmark_equity": 45947.86,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-23",
+      "price": 0.00380975639875,
+      "strategy_equity": 224166.25,
+      "benchmark_equity": 50416.99,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-24",
+      "price": 0.00416110524461,
+      "strategy_equity": 244839.63,
+      "benchmark_equity": 55066.62,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-25",
+      "price": 0.00414329454095,
+      "strategy_equity": 243791.65,
+      "benchmark_equity": 54830.91,
+      "signal": 0
+    },
+    {
+      "date": "2025-10-26",
+      "price": 0.00474115438914,
+      "strategy_equity": 243801.78,
+      "benchmark_equity": 62742.78,
+      "signal": 0
+    },
+    {
+      "date": "2025-10-27",
+      "price": 0.00478265486113,
+      "strategy_equity": 243801.78,
+      "benchmark_equity": 63291.99,
+      "signal": 0
+    },
+    {
+      "date": "2025-10-28",
+      "price": 0.00462762002399,
+      "strategy_equity": 243801.78,
+      "benchmark_equity": 61240.31,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-29",
+      "price": 0.00524816675352,
+      "strategy_equity": 276488.28,
+      "benchmark_equity": 69452.41,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-30",
+      "price": 0.00441491317,
+      "strategy_equity": 232590.12,
+      "benchmark_equity": 58425.42,
+      "signal": 1
+    },
+    {
+      "date": "2025-10-31",
+      "price": 0.00461407126243,
+      "strategy_equity": 243082.33,
+      "benchmark_equity": 61061.01,
+      "signal": 1
+    },
+    {
+      "date": "2025-11-01",
+      "price": 0.00465698542855,
+      "strategy_equity": 245343.17,
+      "benchmark_equity": 61628.92,
+      "signal": 1
+    },
+    {
+      "date": "2025-11-02",
+      "price": 0.00437549789668,
+      "strategy_equity": 230513.61,
+      "benchmark_equity": 57903.81,
+      "signal": 1
+    },
+    {
+      "date": "2025-11-03",
+      "price": 0.00387417938335,
+      "strategy_equity": 204102.73,
+      "benchmark_equity": 51269.54,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-04",
+      "price": 0.0037567071803,
+      "strategy_equity": 204069.3,
+      "benchmark_equity": 49714.95,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-05",
+      "price": 0.00415361404154,
+      "strategy_equity": 204069.3,
+      "benchmark_equity": 54967.48,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-06",
+      "price": 0.00369926689907,
+      "strategy_equity": 204069.3,
+      "benchmark_equity": 48954.81,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-07",
+      "price": 0.00417182285333,
+      "strategy_equity": 204069.3,
+      "benchmark_equity": 55208.45,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-08",
+      "price": 0.00378273274095,
+      "strategy_equity": 204069.3,
+      "benchmark_equity": 50059.37,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-09",
+      "price": 0.00411958639675,
+      "strategy_equity": 204069.3,
+      "benchmark_equity": 54517.17,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-10",
+      "price": 0.00450026102472,
+      "strategy_equity": 204069.3,
+      "benchmark_equity": 59554.88,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-11",
+      "price": 0.00410289611755,
+      "strategy_equity": 204069.3,
+      "benchmark_equity": 54296.3,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-12",
+      "price": 0.00391343672733,
+      "strategy_equity": 204069.3,
+      "benchmark_equity": 51789.06,
+      "signal": 1
+    },
+    {
+      "date": "2025-11-13",
+      "price": 0.00364117632317,
+      "strategy_equity": 189876.9,
+      "benchmark_equity": 48186.06,
+      "signal": 1
+    },
+    {
+      "date": "2025-11-14",
+      "price": 0.00348283710881,
+      "strategy_equity": 181619.96,
+      "benchmark_equity": 46090.65,
+      "signal": 1
+    },
+    {
+      "date": "2025-11-15",
+      "price": 0.00359189746692,
+      "strategy_equity": 187307.15,
+      "benchmark_equity": 47533.92,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-16",
+      "price": 0.00341870312614,
+      "strategy_equity": 187310.52,
+      "benchmark_equity": 45241.92,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-17",
+      "price": 0.00288268934075,
+      "strategy_equity": 187310.52,
+      "benchmark_equity": 38148.51,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-18",
+      "price": 0.00313114683731,
+      "strategy_equity": 187310.52,
+      "benchmark_equity": 41436.51,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-19",
+      "price": 0.00319233931663,
+      "strategy_equity": 187310.52,
+      "benchmark_equity": 42246.31,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-20",
+      "price": 0.00294080781533,
+      "strategy_equity": 187310.52,
+      "benchmark_equity": 38917.63,
+      "signal": 1
+    },
+    {
+      "date": "2025-11-21",
+      "price": 0.00274203720479,
+      "strategy_equity": 174706.58,
+      "benchmark_equity": 36287.16,
+      "signal": 1
+    },
+    {
+      "date": "2025-11-22",
+      "price": 0.00265896549612,
+      "strategy_equity": 169413.74,
+      "benchmark_equity": 35187.82,
+      "signal": 1
+    },
+    {
+      "date": "2025-11-23",
+      "price": 0.00252158146009,
+      "strategy_equity": 160660.43,
+      "benchmark_equity": 33369.73,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-24",
+      "price": 0.00281268696451,
+      "strategy_equity": 160660.43,
+      "benchmark_equity": 37222.12,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-25",
+      "price": 0.00277946935806,
+      "strategy_equity": 160660.43,
+      "benchmark_equity": 36782.53,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-26",
+      "price": 0.00293104215491,
+      "strategy_equity": 160660.43,
+      "benchmark_equity": 38788.39,
+      "signal": 0
+    },
+    {
+      "date": "2025-11-27",
+      "price": 0.0029193422036,
+      "strategy_equity": 160660.43,
+      "benchmark_equity": 38633.56,
+      "signal": 1
+    },
+    {
+      "date": "2025-11-28",
+      "price": 0.00292378839625,
+      "strategy_equity": 160899.57,
+      "benchmark_equity": 38692.4,
+      "signal": 1
+    },
+    {
+      "date": "2025-11-29",
+      "price": 0.00289387123602,
+      "strategy_equity": 159253.19,
+      "benchmark_equity": 38296.48,
+      "signal": 1
+    },
+    {
+      "date": "2025-11-30",
+      "price": 0.00295685759836,
+      "strategy_equity": 162719.41,
+      "benchmark_equity": 39130.02,
+      "signal": 1
+    },
+    {
+      "date": "2025-12-01",
+      "price": 0.00280812234289,
+      "strategy_equity": 154534.33,
+      "benchmark_equity": 37161.71,
+      "signal": 1
+    },
+    {
+      "date": "2025-12-02",
+      "price": 0.00325755775274,
+      "strategy_equity": 179267.29,
+      "benchmark_equity": 43109.38,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-03",
+      "price": 0.0031726926588,
+      "strategy_equity": 179273.26,
+      "benchmark_equity": 41986.31,
+      "signal": 1
+    },
+    {
+      "date": "2025-12-04",
+      "price": 0.00312094424455,
+      "strategy_equity": 176408.88,
+      "benchmark_equity": 41301.49,
+      "signal": 1
+    },
+    {
+      "date": "2025-12-05",
+      "price": 0.00284073318249,
+      "strategy_equity": 160570.17,
+      "benchmark_equity": 37593.27,
+      "signal": 1
+    },
+    {
+      "date": "2025-12-06",
+      "price": 0.00298347224641,
+      "strategy_equity": 168638.38,
+      "benchmark_equity": 39482.23,
+      "signal": 1
+    },
+    {
+      "date": "2025-12-07",
+      "price": 0.00290918538066,
+      "strategy_equity": 164439.38,
+      "benchmark_equity": 38499.14,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-08",
+      "price": 0.0030555215257,
+      "strategy_equity": 164465.27,
+      "benchmark_equity": 40435.71,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-09",
+      "price": 0.00306480667579,
+      "strategy_equity": 164465.27,
+      "benchmark_equity": 40558.58,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-10",
+      "price": 0.00287305619408,
+      "strategy_equity": 164465.27,
+      "benchmark_equity": 38021.02,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-11",
+      "price": 0.00286009282089,
+      "strategy_equity": 164465.27,
+      "benchmark_equity": 37849.47,
+      "signal": 1
+    },
+    {
+      "date": "2025-12-12",
+      "price": 0.0027587270883,
+      "strategy_equity": 158636.39,
+      "benchmark_equity": 36508.03,
+      "signal": 1
+    },
+    {
+      "date": "2025-12-13",
+      "price": 0.00279697244193,
+      "strategy_equity": 160835.63,
+      "benchmark_equity": 37014.16,
+      "signal": 1
+    },
+    {
+      "date": "2025-12-14",
+      "price": 0.00264517827553,
+      "strategy_equity": 152106.94,
+      "benchmark_equity": 35005.37,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-15",
+      "price": 0.00251839308087,
+      "strategy_equity": 152109.03,
+      "benchmark_equity": 33327.54,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-16",
+      "price": 0.00234666326108,
+      "strategy_equity": 152109.03,
+      "benchmark_equity": 31054.92,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-17",
+      "price": 0.00208820288459,
+      "strategy_equity": 152109.03,
+      "benchmark_equity": 27634.55,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-18",
+      "price": 0.00186415568584,
+      "strategy_equity": 152109.03,
+      "benchmark_equity": 24669.59,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-19",
+      "price": 0.00198890339055,
+      "strategy_equity": 152109.03,
+      "benchmark_equity": 26320.45,
+      "signal": 1
+    },
+    {
+      "date": "2025-12-20",
+      "price": 0.00196556202562,
+      "strategy_equity": 150323.91,
+      "benchmark_equity": 26011.56,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-21",
+      "price": 0.00197305194042,
+      "strategy_equity": 150323.91,
+      "benchmark_equity": 26110.68,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-22",
+      "price": 0.00190961027637,
+      "strategy_equity": 150323.91,
+      "benchmark_equity": 25271.12,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-23",
+      "price": 0.0017312839888,
+      "strategy_equity": 150323.91,
+      "benchmark_equity": 22911.21,
+      "signal": 1
+    },
+    {
+      "date": "2025-12-24",
+      "price": 0.0017415714663,
+      "strategy_equity": 151217.15,
+      "benchmark_equity": 23047.35,
+      "signal": 1
+    },
+    {
+      "date": "2025-12-25",
+      "price": 0.00173202773405,
+      "strategy_equity": 150388.49,
+      "benchmark_equity": 22921.05,
+      "signal": 1
+    },
+    {
+      "date": "2025-12-26",
+      "price": 0.00180488774563,
+      "strategy_equity": 156714.78,
+      "benchmark_equity": 23885.25,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-27",
+      "price": 0.00187567557111,
+      "strategy_equity": 156714.78,
+      "benchmark_equity": 24822.04,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-28",
+      "price": 0.00188077998418,
+      "strategy_equity": 156714.78,
+      "benchmark_equity": 24889.59,
+      "signal": 0
+    },
+    {
+      "date": "2025-12-29",
+      "price": 0.00180767748947,
+      "strategy_equity": 156714.78,
+      "benchmark_equity": 23922.17,
+      "signal": 1
+    },
+    {
+      "date": "2025-12-30",
+      "price": 0.00184309494678,
+      "strategy_equity": 159782.31,
+      "benchmark_equity": 24390.88,
+      "signal": 1
+    },
+    {
+      "date": "2025-12-31",
+      "price": 0.001913116064,
+      "strategy_equity": 165852.61,
+      "benchmark_equity": 25317.51,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-01",
+      "price": 0.00210619563101,
+      "strategy_equity": 182591.14,
+      "benchmark_equity": 27872.66,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-02",
+      "price": 0.00226966314395,
+      "strategy_equity": 196762.53,
+      "benchmark_equity": 30035.93,
+      "signal": 0
+    },
+    {
+      "date": "2026-01-03",
+      "price": 0.00232640556578,
+      "strategy_equity": 196760.6,
+      "benchmark_equity": 30786.84,
+      "signal": 0
+    },
+    {
+      "date": "2026-01-04",
+      "price": 0.00235164887837,
+      "strategy_equity": 196760.6,
+      "benchmark_equity": 31120.9,
+      "signal": 0
+    },
+    {
+      "date": "2026-01-05",
+      "price": 0.00250710471057,
+      "strategy_equity": 196760.6,
+      "benchmark_equity": 33178.15,
+      "signal": 0
+    },
+    {
+      "date": "2026-01-06",
+      "price": 0.00265622135773,
+      "strategy_equity": 196760.6,
+      "benchmark_equity": 35151.51,
+      "signal": 0
+    },
+    {
+      "date": "2026-01-07",
+      "price": 0.00235234458119,
+      "strategy_equity": 196760.6,
+      "benchmark_equity": 31130.11,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-08",
+      "price": 0.00218382753437,
+      "strategy_equity": 182665.09,
+      "benchmark_equity": 28900.01,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-09",
+      "price": 0.00234885866948,
+      "strategy_equity": 196469.03,
+      "benchmark_equity": 31083.98,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-10",
+      "price": 0.00229039667861,
+      "strategy_equity": 191579.0,
+      "benchmark_equity": 30310.31,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-11",
+      "price": 0.0023923716362,
+      "strategy_equity": 200108.65,
+      "benchmark_equity": 31659.81,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-12",
+      "price": 0.00243044942972,
+      "strategy_equity": 203293.64,
+      "benchmark_equity": 32163.72,
+      "signal": 0
+    },
+    {
+      "date": "2026-01-13",
+      "price": 0.00265796781351,
+      "strategy_equity": 203347.51,
+      "benchmark_equity": 35174.62,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-14",
+      "price": 0.00281749561571,
+      "strategy_equity": 215504.98,
+      "benchmark_equity": 37285.75,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-15",
+      "price": 0.00271768180462,
+      "strategy_equity": 207870.41,
+      "benchmark_equity": 35964.85,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-16",
+      "price": 0.00295774050491,
+      "strategy_equity": 226232.05,
+      "benchmark_equity": 39141.71,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-17",
+      "price": 0.00279552838909,
+      "strategy_equity": 213824.75,
+      "benchmark_equity": 36995.05,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-18",
+      "price": 0.00260099672269,
+      "strategy_equity": 198945.38,
+      "benchmark_equity": 34420.68,
+      "signal": 0
+    },
+    {
+      "date": "2026-01-19",
+      "price": 0.00264137812774,
+      "strategy_equity": 199036.85,
+      "benchmark_equity": 34955.08,
+      "signal": 0
+    },
+    {
+      "date": "2026-01-20",
+      "price": 0.00239482326186,
+      "strategy_equity": 199036.85,
+      "benchmark_equity": 31692.26,
+      "signal": 0
+    },
+    {
+      "date": "2026-01-21",
+      "price": 0.00264287752808,
+      "strategy_equity": 199036.85,
+      "benchmark_equity": 34974.92,
+      "signal": 0
+    },
+    {
+      "date": "2026-01-22",
+      "price": 0.00246855191902,
+      "strategy_equity": 199036.85,
+      "benchmark_equity": 32667.96,
+      "signal": 0
+    },
+    {
+      "date": "2026-01-23",
+      "price": 0.00239386912619,
+      "strategy_equity": 199036.85,
+      "benchmark_equity": 31679.63,
+      "signal": 0
+    },
+    {
+      "date": "2026-01-24",
+      "price": 0.00274130577282,
+      "strategy_equity": 199036.85,
+      "benchmark_equity": 36277.48,
+      "signal": 0
+    },
+    {
+      "date": "2026-01-25",
+      "price": 0.00246152122269,
+      "strategy_equity": 199036.85,
+      "benchmark_equity": 32574.91,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-26",
+      "price": 0.00270856565061,
+      "strategy_equity": 219069.66,
+      "benchmark_equity": 35844.21,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-27",
+      "price": 0.00317072704995,
+      "strategy_equity": 256449.42,
+      "benchmark_equity": 41960.3,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-28",
+      "price": 0.00306433563377,
+      "strategy_equity": 247844.45,
+      "benchmark_equity": 40552.35,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-29",
+      "price": 0.00282333932806,
+      "strategy_equity": 228352.59,
+      "benchmark_equity": 37363.09,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-30",
+      "price": 0.0028064599284,
+      "strategy_equity": 226987.38,
+      "benchmark_equity": 37139.71,
+      "signal": 1
+    },
+    {
+      "date": "2026-01-31",
+      "price": 0.00269702612272,
+      "strategy_equity": 218136.34,
+      "benchmark_equity": 35691.5,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-01",
+      "price": 0.00255938036779,
+      "strategy_equity": 218123.17,
+      "benchmark_equity": 33869.95,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-02",
+      "price": 0.00240248978283,
+      "strategy_equity": 218123.17,
+      "benchmark_equity": 31793.71,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-03",
+      "price": 0.00239682908736,
+      "strategy_equity": 218123.17,
+      "benchmark_equity": 31718.8,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-04",
+      "price": 0.00226264000497,
+      "strategy_equity": 218123.17,
+      "benchmark_equity": 29942.99,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-05",
+      "price": 0.00192822508178,
+      "strategy_equity": 218123.17,
+      "benchmark_equity": 25517.46,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-06",
+      "price": 0.00211153062473,
+      "strategy_equity": 218123.17,
+      "benchmark_equity": 27943.26,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-07",
+      "price": 0.00209664666261,
+      "strategy_equity": 218123.17,
+      "benchmark_equity": 27746.29,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-08",
+      "price": 0.00209174243935,
+      "strategy_equity": 218123.17,
+      "benchmark_equity": 27681.39,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-09",
+      "price": 0.00200039233672,
+      "strategy_equity": 218123.17,
+      "benchmark_equity": 26472.49,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-10",
+      "price": 0.00190971132454,
+      "strategy_equity": 218123.17,
+      "benchmark_equity": 25272.45,
+      "signal": 0
+    }
+  ]
+}
