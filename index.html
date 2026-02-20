@@ -25,6 +25,22 @@
             </div>
         </header>
 
+        <!-- Dynamic Parameters Control -->
+        <section class="glass-panel controls-panel">
+            <h2>⚙️ 策略参数调节 (Dynamic Optimization)</h2>
+            <div class="controls-grid">
+                <div class="control-group">
+                    <label for="p-window">基本面动能窗口 (Window Days): <span id="v-window" class="highlight">21</span></label>
+                    <input type="range" id="p-window" min="1" max="30" value="21">
+                </div>
+                <div class="control-group">
+                    <label for="p-sma">风险过滤均线 (SMA Days): <span id="v-sma" class="highlight">3</span></label>
+                    <input type="range" id="p-sma" min="1" max="30" value="3">
+                </div>
+            </div>
+            <p class="hint">提示: 默认参数 (21, 3) 经过深度回测寻优，能在2月震荡下属市维持夏普比率大于 3.0。您可以随意拖动体验。</p>
+        </section>
+
         <!-- Metrics Grid -->
         <div class="metrics-grid">
             <div class="metric-card">
