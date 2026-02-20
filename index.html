@@ -59,6 +59,27 @@
             <div id="main-chart" class="echarts-dom"></div>
         </main>
 
+        <!-- History Table -->
+        <section class="history-container glass-panel">
+            <h2>每日回测明细 (Daily History)</h2>
+            <div class="table-wrapper">
+                <table id="history-table">
+                    <thead>
+                        <tr>
+                            <th>日期 (Date)</th>
+                            <th>标的价格 (Price)</th>
+                            <th>Pump收入 (Revenue)</th>
+                            <th>持仓信号 (Signal)</th>
+                            <th>策略净值 (Equity)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="history-tbody">
+                        <!-- Rows rendered via JS -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
         <!-- Footer -->
         <footer class="footer">
             <p>基于基本面收入动能驱动 | 数据自动更新周期: 6 小时</p>

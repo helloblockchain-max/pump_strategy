@@ -6,24 +6,20 @@ sys.path.append(r'd:\AI')
 import backtest
 
 def generate_json():
-    filepath = r'd:\AI\PUMP-1.xlsx'
+    filepath = r'd:\AI\pump_data.csv'
     
     print("Loading data for export...")
-    rev_data = backtest.load_revenue_data(filepath)
-    mkt_data = backtest.load_market_data(filepath)
-    data = backtest.merge_data(rev_data, mkt_data)
+    data = backtest.load_csv_data(filepath)
 
-    # Best parameter window is 3 based on our optimization
-    params = {'window': 3}
+    # Best parameter based on recent optimization
+    params = {'window': 3, 'sma_window': 10}
     signals = backtest.compute_signals(data, params)
     hist = backtest.run_backtest(data, signals)
     metrics = backtest.calculate_metrics(hist)
 
-    # Format chart data for Recharts
-    # We want Date, Price, Equity, and the specific event
     chart_data = []
+    daily_history = []
     
-    # We may want to track the buy and hold equity too
     bh_capital = 100000.0
     bh_position = bh_capital / data[0]['open']
     
@@ -31,15 +27,23 @@ def generate_json():
         h = hist[i]
         d = data[i]
         
-        # calculate B&H baseline
         bh_equity = bh_position * d['close']
+        date_str = h['date'].strftime('%Y-%m-%d')
         
         chart_data.append({
-            'date': h['date'].strftime('%Y-%m-%d'),
+            'date': date_str,
             'price': h['price'],
             'strategy_equity': round(h['equity'], 2),
             'benchmark_equity': round(bh_equity, 2),
-            'signal': h['signal']  # 1 is hold/buy, 0 is empty/sell
+            'signal': h['signal']
+        })
+        
+        daily_history.append({
+            'date': date_str,
+            'price': round(h['price'], 6),
+            'revenue': d['income'],
+            'signal': "看多 (Long)" if h['signal'] == 1 else "空仓 (Empty)",
+            'equity': round(h['equity'], 2)
         })
 
     # Prepare standard JSON payload
@@ -54,7 +58,8 @@ def generate_json():
             'win_rate': metrics.get('胜率 (Win Rate)'),
             'trades': metrics.get('交易次数 (Trade Count)'),
         },
-        'chart_data': chart_data
+        'chart_data': chart_data,
+        'daily_history': sorted(daily_history, key=lambda x: x['date'], reverse=True) # newest first
     }
 
     # Write to the root folder directly for static HTML mapping

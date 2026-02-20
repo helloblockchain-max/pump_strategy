@@ -2,12 +2,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     try {
         const response = await fetch('./data.json?v=' + new Date().getTime());
         if (!response.ok) throw new Error('Failed to fetch data');
-        
+
         const data = await response.json();
-        
+
         renderMetrics(data);
         renderChart(data);
-        
+        renderHistoryTable(data);
+
     } catch (err) {
         console.error("Error loading dashboard data:", err);
         document.getElementById('last-updated').textContent = "加载失败 (Load Failed)";
@@ -16,11 +17,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 function renderMetrics(data) {
     document.getElementById('last-updated').textContent = data.last_updated;
-    
+
     // safe DOM updates
     const safeSet = (id, val) => {
         const el = document.getElementById(id);
-        if(el) el.textContent = val !== undefined ? val : '--';
+        if (el) el.textContent = val !== undefined ? val : '--';
     };
 
     const m = data.metrics || {};
@@ -34,14 +35,14 @@ function renderMetrics(data) {
 
 function renderChart(data) {
     if (!data.chart_data || data.chart_data.length === 0) return;
-    
+
     const dom = document.getElementById('main-chart');
     const myChart = echarts.init(dom);
-    
+
     const dates = data.chart_data.map(item => item.date);
     const strategyEquity = data.chart_data.map(item => item.strategy_equity);
     const bhEquity = data.chart_data.map(item => item.benchmark_equity);
-    
+
     const option = {
         backgroundColor: 'transparent',
         tooltip: {
@@ -111,10 +112,33 @@ function renderChart(data) {
             }
         ]
     };
-    
+
     myChart.setOption(option);
-    
+
     window.addEventListener('resize', () => {
         myChart.resize();
+    });
+}
+
+function renderHistoryTable(data) {
+    if (!data.daily_history || data.daily_history.length === 0) return;
+
+    const tbody = document.getElementById('history-tbody');
+    tbody.innerHTML = '';
+
+    data.daily_history.forEach(row => {
+        const tr = document.createElement('tr');
+
+        // Signal color based on value
+        const signalColor = row.signal.includes('看多') ? 'var(--accent)' : 'var(--text-muted)';
+
+        tr.innerHTML = `
+            <td>${row.date}</td>
+            <td>${row.price}</td>
+            <td>$${Number(row.revenue).toLocaleString()}</td>
+            <td style="color: ${signalColor}; font-weight: 600;">${row.signal}</td>
+            <td>${row.equity.toLocaleString()}</td>
+        `;
+        tbody.appendChild(tr);
     });
 }

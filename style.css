@@ -21,7 +21,7 @@ body {
     color: var(--text-primary);
     min-height: 100vh;
     background-image: radial-gradient(circle at 15% 50%, rgba(0, 255, 204, 0.05), transparent 25%),
-                      radial-gradient(circle at 85% 30%, rgba(138, 43, 226, 0.05), transparent 25%);
+        radial-gradient(circle at 85% 30%, rgba(138, 43, 226, 0.05), transparent 25%);
     overflow-x: hidden;
 }
 
@@ -54,7 +54,9 @@ h1 span {
 }
 
 /* Glassmorphism Classes */
-.glass-header, .glass-panel, .metric-card {
+.glass-header,
+.glass-panel,
+.metric-card {
     background: var(--glass-bg);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -76,7 +78,7 @@ h1 span {
     gap: 8px;
     font-size: 0.85rem;
     color: var(--text-muted);
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     padding: 8px 16px;
     border-radius: 20px;
     border: 1px solid var(--glass-border);
@@ -92,9 +94,20 @@ h1 span {
 }
 
 @keyframes pulse {
-    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 255, 204, 0.7); }
-    70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(0, 255, 204, 0); }
-    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 255, 204, 0); }
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 255, 204, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 6px rgba(0, 255, 204, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 255, 204, 0);
+    }
 }
 
 /* Metrics Grid */
@@ -128,8 +141,13 @@ h1 span {
     font-weight: 600;
 }
 
-.highlight { color: var(--accent); }
-.danger { color: var(--danger); }
+.highlight {
+    color: var(--accent);
+}
+
+.danger {
+    color: var(--danger);
+}
 
 /* Chart Container */
 .chart-container {
@@ -155,4 +173,67 @@ h1 span {
     color: var(--text-muted);
     font-size: 0.85rem;
     margin-top: 1rem;
+}
+
+/* History Table */
+.history-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.history-container h2 {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    max-height: 400px;
+    overflow-y: auto;
+    border-radius: 8px;
+    border: 1px solid var(--glass-border);
+}
+
+.table-wrapper::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+#history-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+#history-table th {
+    position: sticky;
+    top: 0;
+    background: rgba(10, 10, 15, 0.95);
+    backdrop-filter: blur(8px);
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    padding: 1rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--glass-border);
+    z-index: 10;
+}
+
+#history-table td {
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+#history-table tbody tr {
+    transition: background 0.2s;
+}
+
+#history-table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.05);
 }
