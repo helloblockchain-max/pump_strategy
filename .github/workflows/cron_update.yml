@@ -1,10 +1,11 @@
 name: Update Data and Deploy
 
 on:
+  push:
+    branches:
+      - main
   schedule:
-    # Run every 6 hours
     - cron: '0 */6 * * *'
-  # Allow manual trigger
   workflow_dispatch:
 
 permissions:
