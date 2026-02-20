@@ -1,1498 +1,3110 @@
 {
-  "last_updated": "2026-02-10 00:00:00",
+  "last_updated": "2026-02-19 00:00:00",
   "metrics": {
-    "total_return": "118.12%",
-    "annual_return": "282.95%",
-    "volatility": "90.89%",
-    "sharpe": "3.11",
-    "max_drawdown": "47.07%",
-    "win_rate": "62.50%",
-    "trades": "24"
+    "total_return": "54.24%",
+    "annual_return": "104.55%",
+    "volatility": "79.68%",
+    "sharpe": "1.31",
+    "max_drawdown": "42.26%",
+    "win_rate": "38.89%",
+    "trades": "18"
   },
   "chart_data": [
     {
       "date": "2025-07-14",
-      "price": 0.00583336813853,
+      "price": 0.00583872486352127,
       "strategy_equity": 100000.0,
-      "benchmark_equity": 77196.76,
+      "benchmark_equity": 100000.0,
       "signal": 0
     },
     {
       "date": "2025-07-15",
-      "price": 0.00681779248292,
+      "price": 0.00583872486352127,
       "strategy_equity": 100000.0,
-      "benchmark_equity": 90224.29,
+      "benchmark_equity": 100000.0,
       "signal": 0
     },
     {
       "date": "2025-07-16",
-      "price": 0.00583412221743,
+      "price": 0.006810388340263352,
       "strategy_equity": 100000.0,
-      "benchmark_equity": 77206.74,
+      "benchmark_equity": 116641.71,
       "signal": 0
     },
     {
       "date": "2025-07-17",
-      "price": 0.00494341366798,
+      "price": 0.005819334795803234,
       "strategy_equity": 100000.0,
-      "benchmark_equity": 65419.41,
+      "benchmark_equity": 99667.91,
       "signal": 0
     },
     {
       "date": "2025-07-18",
-      "price": 0.00420541763668,
+      "price": 0.00497016175616411,
       "strategy_equity": 100000.0,
-      "benchmark_equity": 55653.03,
+      "benchmark_equity": 85124.1,
       "signal": 0
     },
     {
       "date": "2025-07-19",
-      "price": 0.00411881417652,
+      "price": 0.004235345143134024,
       "strategy_equity": 100000.0,
-      "benchmark_equity": 54506.95,
+      "benchmark_equity": 72538.87,
       "signal": 0
     },
     {
       "date": "2025-07-20",
-      "price": 0.0042321215755,
+      "price": 0.004113324236152353,
       "strategy_equity": 100000.0,
-      "benchmark_equity": 56006.42,
+      "benchmark_equity": 70449.02,
       "signal": 0
     },
     {
       "date": "2025-07-21",
-      "price": 0.00414841020585,
+      "price": 0.004244719195442207,
       "strategy_equity": 100000.0,
-      "benchmark_equity": 54898.61,
+      "benchmark_equity": 72699.42,
       "signal": 0
     },
     {
       "date": "2025-07-22",
-      "price": 0.00380526875335,
+      "price": 0.00416272224184562,
       "strategy_equity": 100000.0,
-      "benchmark_equity": 50357.6,
+      "benchmark_equity": 71295.06,
       "signal": 0
     },
     {
       "date": "2025-07-23",
-      "price": 0.00309136848009,
+      "price": 0.0037991358790512427,
       "strategy_equity": 100000.0,
-      "benchmark_equity": 40910.09,
+      "benchmark_equity": 65067.9,
       "signal": 0
     },
     {
       "date": "2025-07-24",
-      "price": 0.00264857681806,
+      "price": 0.003081476992205476,
       "strategy_equity": 100000.0,
-      "benchmark_equity": 35050.34,
-      "signal": 1
+      "benchmark_equity": 52776.54,
+      "signal": 0
     },
     {
       "date": "2025-07-25",
-      "price": 0.00273864788127,
-      "strategy_equity": 103400.73,
-      "benchmark_equity": 36242.31,
-      "signal": 1
+      "price": 0.002646870087672479,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 45333.02,
+      "signal": 0
     },
     {
       "date": "2025-07-26",
-      "price": 0.00285257117089,
-      "strategy_equity": 107702.04,
-      "benchmark_equity": 37749.93,
+      "price": 0.0027353979966321883,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 46849.24,
       "signal": 0
     },
     {
       "date": "2025-07-27",
-      "price": 0.00262097730704,
-      "strategy_equity": 107704.55,
-      "benchmark_equity": 34685.1,
+      "price": 0.0028417696987469024,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 48671.07,
       "signal": 0
     },
     {
       "date": "2025-07-28",
-      "price": 0.00244089316563,
-      "strategy_equity": 107704.55,
-      "benchmark_equity": 32301.93,
+      "price": 0.0026175582643402245,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 44830.99,
       "signal": 0
     },
     {
       "date": "2025-07-29",
-      "price": 0.0028028612069,
-      "strategy_equity": 107704.55,
-      "benchmark_equity": 37092.09,
+      "price": 0.0024454708491178445,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 41883.65,
       "signal": 0
     },
     {
       "date": "2025-07-30",
-      "price": 0.0027514460003,
-      "strategy_equity": 107704.55,
-      "benchmark_equity": 36411.68,
+      "price": 0.002801922026072535,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 47988.59,
       "signal": 0
     },
     {
       "date": "2025-07-31",
-      "price": 0.0025119235723,
-      "strategy_equity": 107704.55,
-      "benchmark_equity": 33241.92,
-      "signal": 1
+      "price": 0.0027334412988853467,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 46815.72,
+      "signal": 0
     },
     {
       "date": "2025-08-01",
-      "price": 0.00256964151977,
-      "strategy_equity": 110179.34,
-      "benchmark_equity": 34005.74,
-      "signal": 1
+      "price": 0.002521541521912957,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 43186.51,
+      "signal": 0
     },
     {
       "date": "2025-08-02",
-      "price": 0.00276600275349,
-      "strategy_equity": 118598.79,
-      "benchmark_equity": 36604.32,
+      "price": 0.0025796843528924523,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 44182.32,
       "signal": 0
     },
     {
       "date": "2025-08-03",
-      "price": 0.00291887786706,
-      "strategy_equity": 118611.78,
-      "benchmark_equity": 38627.41,
+      "price": 0.0027414575088323336,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 46953.02,
       "signal": 0
     },
     {
       "date": "2025-08-04",
-      "price": 0.0031186848917,
-      "strategy_equity": 118611.78,
-      "benchmark_equity": 41271.59,
+      "price": 0.0029134884805883,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 49899.4,
       "signal": 0
     },
     {
       "date": "2025-08-05",
-      "price": 0.00324000728879,
-      "strategy_equity": 118611.78,
-      "benchmark_equity": 42877.13,
-      "signal": 0
+      "price": 0.003120251995644237,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 53440.64,
+      "signal": 1
     },
     {
       "date": "2025-08-06",
-      "price": 0.00341929938149,
-      "strategy_equity": 118611.78,
-      "benchmark_equity": 45249.82,
+      "price": 0.0032429985782573825,
+      "strategy_equity": 100000.0,
+      "benchmark_equity": 55542.93,
       "signal": 1
     },
     {
       "date": "2025-08-07",
-      "price": 0.00356778373242,
-      "strategy_equity": 123762.54,
-      "benchmark_equity": 47214.81,
+      "price": 0.003418170741272135,
+      "strategy_equity": 105401.55,
+      "benchmark_equity": 58543.1,
       "signal": 1
     },
     {
       "date": "2025-08-08",
-      "price": 0.00338690286636,
-      "strategy_equity": 117487.98,
-      "benchmark_equity": 44821.09,
+      "price": 0.0035661422639681768,
+      "strategy_equity": 109964.35,
+      "benchmark_equity": 61077.42,
       "signal": 1
     },
     {
       "date": "2025-08-09",
-      "price": 0.00313743908318,
-      "strategy_equity": 108834.35,
-      "benchmark_equity": 41519.77,
+      "price": 0.003388930680220162,
+      "strategy_equity": 104499.91,
+      "benchmark_equity": 58042.31,
       "signal": 1
     },
     {
       "date": "2025-08-10",
-      "price": 0.00311597579795,
-      "strategy_equity": 108089.82,
-      "benchmark_equity": 41235.74,
+      "price": 0.003138500368636193,
+      "strategy_equity": 96777.73,
+      "benchmark_equity": 53753.18,
       "signal": 1
     },
     {
       "date": "2025-08-11",
-      "price": 0.00345518051645,
-      "strategy_equity": 119856.46,
-      "benchmark_equity": 45724.65,
+      "price": 0.003114112851149657,
+      "strategy_equity": 96025.72,
+      "benchmark_equity": 53335.5,
       "signal": 1
     },
     {
       "date": "2025-08-12",
-      "price": 0.00400905635953,
-      "strategy_equity": 139069.81,
-      "benchmark_equity": 53054.45,
+      "price": 0.003447067123853039,
+      "strategy_equity": 106292.59,
+      "benchmark_equity": 59038.01,
       "signal": 1
     },
     {
       "date": "2025-08-13",
-      "price": 0.00397294359465,
-      "strategy_equity": 137817.1,
-      "benchmark_equity": 52576.55,
+      "price": 0.004006573941321927,
+      "strategy_equity": 123545.35,
+      "benchmark_equity": 68620.7,
       "signal": 1
     },
     {
       "date": "2025-08-14",
-      "price": 0.00359731931916,
-      "strategy_equity": 124787.1,
-      "benchmark_equity": 47605.67,
+      "price": 0.003981437279008479,
+      "strategy_equity": 122770.24,
+      "benchmark_equity": 68190.18,
       "signal": 1
     },
     {
       "date": "2025-08-15",
-      "price": 0.00347400184948,
-      "strategy_equity": 120509.35,
-      "benchmark_equity": 45973.73,
+      "price": 0.0036171048157979035,
+      "strategy_equity": 111535.81,
+      "benchmark_equity": 61950.25,
       "signal": 1
     },
     {
       "date": "2025-08-16",
-      "price": 0.00348690174062,
-      "strategy_equity": 120956.83,
-      "benchmark_equity": 46144.44,
+      "price": 0.003470890578037042,
+      "strategy_equity": 107027.2,
+      "benchmark_equity": 59446.04,
       "signal": 1
     },
     {
       "date": "2025-08-17",
-      "price": 0.00365301924436,
-      "strategy_equity": 126719.27,
-      "benchmark_equity": 48342.78,
+      "price": 0.00349364318034043,
+      "strategy_equity": 107728.79,
+      "benchmark_equity": 59835.72,
       "signal": 0
     },
     {
       "date": "2025-08-18",
-      "price": 0.00310582900821,
-      "strategy_equity": 126719.27,
-      "benchmark_equity": 41101.46,
+      "price": 0.003665794257053614,
+      "strategy_equity": 113037.18,
+      "benchmark_equity": 62784.16,
       "signal": 0
     },
     {
       "date": "2025-08-19",
-      "price": 0.00281250784086,
-      "strategy_equity": 126719.27,
-      "benchmark_equity": 37219.75,
+      "price": 0.0031089792515931807,
+      "strategy_equity": 113037.18,
+      "benchmark_equity": 53247.57,
       "signal": 0
     },
     {
       "date": "2025-08-20",
-      "price": 0.00313640619635,
-      "strategy_equity": 126719.27,
-      "benchmark_equity": 41506.11,
+      "price": 0.002816448622693886,
+      "strategy_equity": 113037.18,
+      "benchmark_equity": 48237.39,
       "signal": 0
     },
     {
       "date": "2025-08-21",
-      "price": 0.00280994379634,
-      "strategy_equity": 126719.27,
-      "benchmark_equity": 37185.82,
-      "signal": 1
+      "price": 0.003139070129497191,
+      "strategy_equity": 113037.18,
+      "benchmark_equity": 53762.94,
+      "signal": 0
     },
     {
       "date": "2025-08-22",
-      "price": 0.00320275893539,
-      "strategy_equity": 144433.95,
-      "benchmark_equity": 42384.19,
+      "price": 0.0028037997377882433,
+      "strategy_equity": 113037.18,
+      "benchmark_equity": 48020.75,
       "signal": 0
     },
     {
       "date": "2025-08-23",
-      "price": 0.00313084308544,
-      "strategy_equity": 144433.95,
-      "benchmark_equity": 41432.49,
+      "price": 0.0032053675789530975,
+      "strategy_equity": 113037.18,
+      "benchmark_equity": 54898.42,
       "signal": 0
     },
     {
       "date": "2025-08-24",
-      "price": 0.00291470628493,
-      "strategy_equity": 144433.95,
-      "benchmark_equity": 38572.21,
+      "price": 0.003131472092582703,
+      "strategy_equity": 113037.18,
+      "benchmark_equity": 53632.81,
       "signal": 0
     },
     {
       "date": "2025-08-25",
-      "price": 0.00263983273967,
-      "strategy_equity": 144433.95,
-      "benchmark_equity": 34934.63,
+      "price": 0.0029182146454700144,
+      "strategy_equity": 113037.18,
+      "benchmark_equity": 49980.34,
       "signal": 1
     },
     {
       "date": "2025-08-26",
-      "price": 0.0028743570863,
-      "strategy_equity": 157274.33,
-      "benchmark_equity": 38038.24,
+      "price": 0.0026430216334414423,
+      "strategy_equity": 113037.18,
+      "benchmark_equity": 45267.1,
       "signal": 0
     },
     {
       "date": "2025-08-27",
-      "price": 0.00300689007759,
-      "strategy_equity": 157274.33,
-      "benchmark_equity": 39792.13,
-      "signal": 1
+      "price": 0.002871998382559099,
+      "strategy_equity": 122830.1,
+      "benchmark_equity": 49188.79,
+      "signal": 0
     },
     {
       "date": "2025-08-28",
-      "price": 0.00350554118057,
-      "strategy_equity": 183356.1,
-      "benchmark_equity": 46391.11,
-      "signal": 1
+      "price": 0.003012184106980776,
+      "strategy_equity": 122830.1,
+      "benchmark_equity": 51589.76,
+      "signal": 0
     },
     {
       "date": "2025-08-29",
-      "price": 0.00350907988212,
-      "strategy_equity": 183541.19,
-      "benchmark_equity": 46437.94,
+      "price": 0.003510745103321703,
+      "strategy_equity": 122830.1,
+      "benchmark_equity": 60128.63,
       "signal": 1
     },
     {
       "date": "2025-08-30",
-      "price": 0.00343813068379,
-      "strategy_equity": 179830.22,
-      "benchmark_equity": 45499.02,
+      "price": 0.0035034857009684146,
+      "strategy_equity": 122830.1,
+      "benchmark_equity": 60004.3,
       "signal": 1
     },
     {
       "date": "2025-08-31",
-      "price": 0.00335760967125,
-      "strategy_equity": 175618.6,
-      "benchmark_equity": 44433.44,
+      "price": 0.0034357999325990295,
+      "strategy_equity": 120457.08,
+      "benchmark_equity": 58845.04,
       "signal": 0
     },
     {
       "date": "2025-09-01",
-      "price": 0.00340055394049,
-      "strategy_equity": 175618.6,
-      "benchmark_equity": 45001.74,
+      "price": 0.00335480113118742,
+      "strategy_equity": 117617.31,
+      "benchmark_equity": 57457.77,
       "signal": 0
     },
     {
       "date": "2025-09-02",
-      "price": 0.00389674183408,
-      "strategy_equity": 175618.6,
-      "benchmark_equity": 51568.12,
+      "price": 0.003382808093469001,
+      "strategy_equity": 117617.31,
+      "benchmark_equity": 57937.45,
       "signal": 0
     },
     {
       "date": "2025-09-03",
-      "price": 0.00407660949431,
-      "strategy_equity": 175618.6,
-      "benchmark_equity": 53948.43,
+      "price": 0.0039039416262679045,
+      "strategy_equity": 117617.31,
+      "benchmark_equity": 66862.91,
       "signal": 0
     },
     {
       "date": "2025-09-04",
-      "price": 0.00427714266493,
-      "strategy_equity": 175618.6,
-      "benchmark_equity": 56602.21,
+      "price": 0.004068856670576404,
+      "strategy_equity": 117617.31,
+      "benchmark_equity": 69687.42,
       "signal": 1
     },
     {
       "date": "2025-09-05",
-      "price": 0.00462853073551,
-      "strategy_equity": 190046.28,
-      "benchmark_equity": 61252.36,
+      "price": 0.004281503807988572,
+      "strategy_equity": 117617.31,
+      "benchmark_equity": 73329.43,
       "signal": 1
     },
     {
       "date": "2025-09-06",
-      "price": 0.00453006557941,
-      "strategy_equity": 186003.33,
-      "benchmark_equity": 59949.31,
+      "price": 0.004634696897207216,
+      "strategy_equity": 127319.88,
+      "benchmark_equity": 79378.58,
       "signal": 1
     },
     {
       "date": "2025-09-07",
-      "price": 0.00486448445496,
-      "strategy_equity": 199734.48,
-      "benchmark_equity": 64374.89,
+      "price": 0.0045401543007651006,
+      "strategy_equity": 124722.7,
+      "benchmark_equity": 77759.35,
       "signal": 0
     },
     {
       "date": "2025-09-08",
-      "price": 0.00473649700251,
-      "strategy_equity": 199733.22,
-      "benchmark_equity": 62681.15,
+      "price": 0.0048792095681037895,
+      "strategy_equity": 134036.9,
+      "benchmark_equity": 83566.36,
       "signal": 0
     },
     {
       "date": "2025-09-09",
-      "price": 0.00476906019071,
-      "strategy_equity": 199733.22,
-      "benchmark_equity": 63112.08,
+      "price": 0.00474267798218418,
+      "strategy_equity": 134036.9,
+      "benchmark_equity": 81227.98,
       "signal": 0
     },
     {
       "date": "2025-09-10",
-      "price": 0.00562757461971,
-      "strategy_equity": 199733.22,
-      "benchmark_equity": 74473.36,
+      "price": 0.004771530100423791,
+      "strategy_equity": 134036.9,
+      "benchmark_equity": 81722.13,
       "signal": 1
     },
     {
       "date": "2025-09-11",
-      "price": 0.00591742911842,
-      "strategy_equity": 210020.7,
-      "benchmark_equity": 78309.19,
+      "price": 0.0056330780926844145,
+      "strategy_equity": 134036.9,
+      "benchmark_equity": 96477.88,
       "signal": 1
     },
     {
       "date": "2025-09-12",
-      "price": 0.00622925941251,
-      "strategy_equity": 221088.15,
-      "benchmark_equity": 82435.85,
+      "price": 0.005945824728817085,
+      "strategy_equity": 141478.58,
+      "benchmark_equity": 101834.3,
       "signal": 1
     },
     {
       "date": "2025-09-13",
-      "price": 0.00747037788874,
-      "strategy_equity": 265137.78,
-      "benchmark_equity": 98860.38,
+      "price": 0.006215066591583295,
+      "strategy_equity": 147885.09,
+      "benchmark_equity": 106445.62,
       "signal": 1
     },
     {
       "date": "2025-09-14",
-      "price": 0.00800158432215,
-      "strategy_equity": 283991.3,
-      "benchmark_equity": 105890.18,
+      "price": 0.007433477760137894,
+      "strategy_equity": 176876.71,
+      "benchmark_equity": 127313.38,
       "signal": 0
     },
     {
       "date": "2025-09-15",
-      "price": 0.00861559171371,
-      "strategy_equity": 283987.75,
-      "benchmark_equity": 114015.74,
+      "price": 0.007985408340777416,
+      "strategy_equity": 190009.68,
+      "benchmark_equity": 136766.31,
       "signal": 1
     },
     {
       "date": "2025-09-16",
-      "price": 0.00781672725419,
-      "strategy_equity": 257659.86,
-      "benchmark_equity": 103443.84,
+      "price": 0.008594428473102196,
+      "strategy_equity": 190009.68,
+      "benchmark_equity": 147197.01,
       "signal": 1
     },
     {
       "date": "2025-09-17",
-      "price": 0.00819758006138,
-      "strategy_equity": 270213.77,
-      "benchmark_equity": 108483.92,
+      "price": 0.007828384711089582,
+      "strategy_equity": 173073.62,
+      "benchmark_equity": 134076.96,
       "signal": 1
     },
     {
       "date": "2025-09-18",
-      "price": 0.00781968748632,
-      "strategy_equity": 257757.43,
-      "benchmark_equity": 103483.02,
+      "price": 0.00820466278822544,
+      "strategy_equity": 181392.56,
+      "benchmark_equity": 140521.48,
       "signal": 1
     },
     {
       "date": "2025-09-19",
-      "price": 0.00716603958212,
-      "strategy_equity": 236211.48,
-      "benchmark_equity": 94832.87,
+      "price": 0.007815905900057103,
+      "strategy_equity": 172797.74,
+      "benchmark_equity": 133863.23,
       "signal": 0
     },
     {
       "date": "2025-09-20",
-      "price": 0.00697086188136,
-      "strategy_equity": 236210.68,
-      "benchmark_equity": 92249.96,
+      "price": 0.007168984267868225,
+      "strategy_equity": 158495.29,
+      "benchmark_equity": 122783.39,
       "signal": 0
     },
     {
       "date": "2025-09-21",
-      "price": 0.00654056208251,
-      "strategy_equity": 236210.68,
-      "benchmark_equity": 86555.52,
+      "price": 0.006973469997441613,
+      "strategy_equity": 158495.29,
+      "benchmark_equity": 119434.81,
       "signal": 0
     },
     {
       "date": "2025-09-22",
-      "price": 0.00569517050135,
-      "strategy_equity": 236210.68,
-      "benchmark_equity": 75367.9,
+      "price": 0.0065444582111650815,
+      "strategy_equity": 158495.29,
+      "benchmark_equity": 112087.11,
       "signal": 0
     },
     {
       "date": "2025-09-23",
-      "price": 0.00583474919624,
-      "strategy_equity": 236210.68,
-      "benchmark_equity": 77215.04,
+      "price": 0.005679796382363804,
+      "strategy_equity": 158495.29,
+      "benchmark_equity": 97278.03,
       "signal": 0
     },
     {
       "date": "2025-09-24",
-      "price": 0.00563516896571,
-      "strategy_equity": 236210.68,
-      "benchmark_equity": 74573.86,
+      "price": 0.005838761517474199,
+      "strategy_equity": 158495.29,
+      "benchmark_equity": 100000.63,
       "signal": 0
     },
     {
       "date": "2025-09-25",
-      "price": 0.00502289259586,
-      "strategy_equity": 236210.68,
-      "benchmark_equity": 66471.21,
+      "price": 0.005636337619994654,
+      "strategy_equity": 158495.29,
+      "benchmark_equity": 96533.71,
       "signal": 0
     },
     {
       "date": "2025-09-26",
-      "price": 0.00525968431783,
-      "strategy_equity": 236210.68,
-      "benchmark_equity": 69604.83,
+      "price": 0.00502465207343172,
+      "strategy_equity": 158495.29,
+      "benchmark_equity": 86057.35,
       "signal": 0
     },
     {
       "date": "2025-09-27",
-      "price": 0.0051754847055,
-      "strategy_equity": 236210.68,
-      "benchmark_equity": 68490.56,
+      "price": 0.005250602226836143,
+      "strategy_equity": 158495.29,
+      "benchmark_equity": 89927.21,
       "signal": 0
     },
     {
       "date": "2025-09-28",
-      "price": 0.00595794591034,
-      "strategy_equity": 236210.68,
-      "benchmark_equity": 78845.38,
+      "price": 0.005178172804724691,
+      "strategy_equity": 158495.29,
+      "benchmark_equity": 88686.71,
       "signal": 0
     },
     {
       "date": "2025-09-29",
-      "price": 0.00576476900784,
-      "strategy_equity": 236210.68,
-      "benchmark_equity": 76288.94,
+      "price": 0.005966188453551393,
+      "strategy_equity": 158495.29,
+      "benchmark_equity": 102183.07,
       "signal": 0
     },
     {
       "date": "2025-09-30",
-      "price": 0.00594194735421,
-      "strategy_equity": 236210.68,
-      "benchmark_equity": 78633.66,
-      "signal": 0
+      "price": 0.005749194559413821,
+      "strategy_equity": 158495.29,
+      "benchmark_equity": 98466.61,
+      "signal": 1
     },
     {
       "date": "2025-10-01",
-      "price": 0.0070456975285,
-      "strategy_equity": 236210.68,
-      "benchmark_equity": 93240.3,
+      "price": 0.005952633256392501,
+      "strategy_equity": 158495.29,
+      "benchmark_equity": 101950.91,
       "signal": 1
     },
     {
       "date": "2025-10-02",
-      "price": 0.0070673714825,
-      "strategy_equity": 236915.27,
-      "benchmark_equity": 93527.13,
+      "price": 0.007057289108717753,
+      "strategy_equity": 187907.94,
+      "benchmark_equity": 120870.38,
       "signal": 1
     },
     {
       "date": "2025-10-03",
-      "price": 0.00687611885543,
-      "strategy_equity": 230504.03,
-      "benchmark_equity": 90996.16,
+      "price": 0.007038451387018281,
+      "strategy_equity": 187406.37,
+      "benchmark_equity": 120547.75,
       "signal": 1
     },
     {
       "date": "2025-10-04",
-      "price": 0.00667912067298,
-      "strategy_equity": 223900.17,
-      "benchmark_equity": 88389.15,
+      "price": 0.006872283122951796,
+      "strategy_equity": 182981.96,
+      "benchmark_equity": 117701.78,
       "signal": 1
     },
     {
       "date": "2025-10-05",
-      "price": 0.00642430476221,
-      "strategy_equity": 215358.13,
-      "benchmark_equity": 85017.01,
+      "price": 0.006687826827329358,
+      "strategy_equity": 178070.61,
+      "benchmark_equity": 114542.59,
       "signal": 0
     },
     {
       "date": "2025-10-06",
-      "price": 0.00620798052601,
-      "strategy_equity": 215356.7,
-      "benchmark_equity": 82154.25,
+      "price": 0.0064234621733610334,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 110014.81,
       "signal": 0
     },
     {
       "date": "2025-10-07",
-      "price": 0.00642421844695,
-      "strategy_equity": 215356.7,
-      "benchmark_equity": 85015.87,
+      "price": 0.00620980701781769,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 106355.53,
       "signal": 0
     },
     {
       "date": "2025-10-08",
-      "price": 0.00615527702461,
-      "strategy_equity": 215356.7,
-      "benchmark_equity": 81456.79,
+      "price": 0.006440794610940245,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 110311.66,
       "signal": 0
     },
     {
       "date": "2025-10-09",
-      "price": 0.005544565637,
-      "strategy_equity": 215356.7,
-      "benchmark_equity": 73374.85,
+      "price": 0.0061634338057701375,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 105561.3,
       "signal": 0
     },
     {
       "date": "2025-10-10",
-      "price": 0.00401030138575,
-      "strategy_equity": 215356.7,
-      "benchmark_equity": 53070.93,
+      "price": 0.0055443915488166745,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 94958.95,
       "signal": 0
     },
     {
       "date": "2025-10-11",
-      "price": 0.003765235768,
-      "strategy_equity": 215356.7,
-      "benchmark_equity": 49827.82,
+      "price": 0.0040515146625077665,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 69390.4,
       "signal": 0
     },
     {
       "date": "2025-10-12",
-      "price": 0.00433895834075,
-      "strategy_equity": 215356.7,
-      "benchmark_equity": 57420.26,
+      "price": 0.0037700456411801126,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 64569.67,
       "signal": 0
     },
     {
       "date": "2025-10-13",
-      "price": 0.00433445688266,
-      "strategy_equity": 215356.7,
-      "benchmark_equity": 57360.69,
+      "price": 0.004332836725087362,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 74208.61,
       "signal": 0
     },
     {
       "date": "2025-10-14",
-      "price": 0.00409996501088,
-      "strategy_equity": 215356.7,
-      "benchmark_equity": 54257.51,
+      "price": 0.004320662776299782,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 74000.11,
       "signal": 0
     },
     {
       "date": "2025-10-15",
-      "price": 0.00383266393784,
-      "strategy_equity": 215356.7,
-      "benchmark_equity": 50720.14,
-      "signal": 1
+      "price": 0.004109305915085536,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 70380.19,
+      "signal": 0
     },
     {
       "date": "2025-10-16",
-      "price": 0.0034705039607,
-      "strategy_equity": 195007.0,
-      "benchmark_equity": 45927.44,
-      "signal": 1
+      "price": 0.003822171537273794,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 65462.44,
+      "signal": 0
     },
     {
       "date": "2025-10-17",
-      "price": 0.00352158132862,
-      "strategy_equity": 197877.03,
-      "benchmark_equity": 46603.38,
-      "signal": 1
+      "price": 0.0034581522137623684,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 59227.87,
+      "signal": 0
     },
     {
       "date": "2025-10-18",
-      "price": 0.00396007723068,
-      "strategy_equity": 222516.04,
-      "benchmark_equity": 52406.28,
-      "signal": 1
+      "price": 0.0035176438452485573,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 60246.78,
+      "signal": 0
     },
     {
       "date": "2025-10-19",
-      "price": 0.00391901832917,
-      "strategy_equity": 220208.94,
-      "benchmark_equity": 51862.92,
-      "signal": 1
+      "price": 0.003957914605553221,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 67787.31,
+      "signal": 0
     },
     {
       "date": "2025-10-20",
-      "price": 0.00386408752586,
-      "strategy_equity": 217122.39,
-      "benchmark_equity": 51135.99,
+      "price": 0.003904518320434341,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 66872.79,
       "signal": 0
     },
     {
       "date": "2025-10-21",
-      "price": 0.00369356028215,
-      "strategy_equity": 217327.73,
-      "benchmark_equity": 48879.29,
+      "price": 0.0038553704421398285,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 66031.03,
       "signal": 1
     },
     {
       "date": "2025-10-22",
-      "price": 0.00347204688504,
-      "strategy_equity": 204295.41,
-      "benchmark_equity": 45947.86,
+      "price": 0.003683778380156671,
+      "strategy_equity": 171031.62,
+      "benchmark_equity": 63092.17,
       "signal": 1
     },
     {
       "date": "2025-10-23",
-      "price": 0.00380975639875,
-      "strategy_equity": 224166.25,
-      "benchmark_equity": 50416.99,
-      "signal": 1
+      "price": 0.0034760136200645392,
+      "strategy_equity": 161385.45,
+      "benchmark_equity": 59533.78,
+      "signal": 0
     },
     {
       "date": "2025-10-24",
-      "price": 0.00416110524461,
-      "strategy_equity": 244839.63,
-      "benchmark_equity": 55066.62,
-      "signal": 1
+      "price": 0.0038120957831193195,
+      "strategy_equity": 176989.18,
+      "benchmark_equity": 65289.87,
+      "signal": 0
     },
     {
       "date": "2025-10-25",
-      "price": 0.00414329454095,
-      "strategy_equity": 243791.65,
-      "benchmark_equity": 54830.91,
+      "price": 0.004160655701949737,
+      "strategy_equity": 176989.18,
+      "benchmark_equity": 71259.66,
       "signal": 0
     },
     {
       "date": "2025-10-26",
-      "price": 0.00474115438914,
-      "strategy_equity": 243801.78,
-      "benchmark_equity": 62742.78,
+      "price": 0.004146795215665869,
+      "strategy_equity": 176989.18,
+      "benchmark_equity": 71022.27,
       "signal": 0
     },
     {
       "date": "2025-10-27",
-      "price": 0.00478265486113,
-      "strategy_equity": 243801.78,
-      "benchmark_equity": 63291.99,
+      "price": 0.004741015885906756,
+      "strategy_equity": 176989.18,
+      "benchmark_equity": 81199.51,
       "signal": 0
     },
     {
       "date": "2025-10-28",
-      "price": 0.00462762002399,
-      "strategy_equity": 243801.78,
-      "benchmark_equity": 61240.31,
-      "signal": 1
+      "price": 0.004782633285758493,
+      "strategy_equity": 176989.18,
+      "benchmark_equity": 81912.29,
+      "signal": 0
     },
     {
       "date": "2025-10-29",
-      "price": 0.00524816675352,
-      "strategy_equity": 276488.28,
-      "benchmark_equity": 69452.41,
+      "price": 0.0046296114124072816,
+      "strategy_equity": 176989.18,
+      "benchmark_equity": 79291.48,
       "signal": 1
     },
     {
       "date": "2025-10-30",
-      "price": 0.00441491317,
-      "strategy_equity": 232590.12,
-      "benchmark_equity": 58425.42,
+      "price": 0.005247906559912385,
+      "strategy_equity": 176989.18,
+      "benchmark_equity": 89881.04,
       "signal": 1
     },
     {
       "date": "2025-10-31",
-      "price": 0.00461407126243,
-      "strategy_equity": 243082.33,
-      "benchmark_equity": 61061.01,
+      "price": 0.004414406519353759,
+      "strategy_equity": 148878.83,
+      "benchmark_equity": 75605.66,
       "signal": 1
     },
     {
       "date": "2025-11-01",
-      "price": 0.00465698542855,
-      "strategy_equity": 245343.17,
-      "benchmark_equity": 61628.92,
+      "price": 0.004633510926763746,
+      "strategy_equity": 156268.27,
+      "benchmark_equity": 79358.27,
       "signal": 1
     },
     {
       "date": "2025-11-02",
-      "price": 0.00437549789668,
-      "strategy_equity": 230513.61,
-      "benchmark_equity": 57903.81,
+      "price": 0.0046527864960100845,
+      "strategy_equity": 156918.35,
+      "benchmark_equity": 79688.4,
       "signal": 1
     },
     {
       "date": "2025-11-03",
-      "price": 0.00387417938335,
-      "strategy_equity": 204102.73,
-      "benchmark_equity": 51269.54,
+      "price": 0.004357489047100285,
+      "strategy_equity": 146959.25,
+      "benchmark_equity": 74630.83,
       "signal": 0
     },
     {
       "date": "2025-11-04",
-      "price": 0.0037567071803,
-      "strategy_equity": 204069.3,
-      "benchmark_equity": 49714.95,
+      "price": 0.0038704101883021745,
+      "strategy_equity": 130532.18,
+      "benchmark_equity": 66288.62,
       "signal": 0
     },
     {
       "date": "2025-11-05",
-      "price": 0.00415361404154,
-      "strategy_equity": 204069.3,
-      "benchmark_equity": 54967.48,
+      "price": 0.0037647228865507762,
+      "strategy_equity": 130532.18,
+      "benchmark_equity": 64478.51,
       "signal": 0
     },
     {
       "date": "2025-11-06",
-      "price": 0.00369926689907,
-      "strategy_equity": 204069.3,
-      "benchmark_equity": 48954.81,
+      "price": 0.004154809781051992,
+      "strategy_equity": 130532.18,
+      "benchmark_equity": 71159.54,
       "signal": 0
     },
     {
       "date": "2025-11-07",
-      "price": 0.00417182285333,
-      "strategy_equity": 204069.3,
-      "benchmark_equity": 55208.45,
+      "price": 0.003696398898201064,
+      "strategy_equity": 130532.18,
+      "benchmark_equity": 63308.32,
       "signal": 0
     },
     {
       "date": "2025-11-08",
-      "price": 0.00378273274095,
-      "strategy_equity": 204069.3,
-      "benchmark_equity": 50059.37,
+      "price": 0.004175073317809356,
+      "strategy_equity": 130532.18,
+      "benchmark_equity": 71506.59,
       "signal": 0
     },
     {
       "date": "2025-11-09",
-      "price": 0.00411958639675,
-      "strategy_equity": 204069.3,
-      "benchmark_equity": 54517.17,
+      "price": 0.003788183189300182,
+      "strategy_equity": 130532.18,
+      "benchmark_equity": 64880.32,
       "signal": 0
     },
     {
       "date": "2025-11-10",
-      "price": 0.00450026102472,
-      "strategy_equity": 204069.3,
-      "benchmark_equity": 59554.88,
+      "price": 0.004113793692794116,
+      "strategy_equity": 130532.18,
+      "benchmark_equity": 70457.06,
       "signal": 0
     },
     {
       "date": "2025-11-11",
-      "price": 0.00410289611755,
-      "strategy_equity": 204069.3,
-      "benchmark_equity": 54296.3,
+      "price": 0.00450024511499785,
+      "strategy_equity": 130532.18,
+      "benchmark_equity": 77075.82,
       "signal": 0
     },
     {
       "date": "2025-11-12",
-      "price": 0.00391343672733,
-      "strategy_equity": 204069.3,
-      "benchmark_equity": 51789.06,
+      "price": 0.00410443223034084,
+      "strategy_equity": 130532.18,
+      "benchmark_equity": 70296.72,
       "signal": 1
     },
     {
       "date": "2025-11-13",
-      "price": 0.00364117632317,
-      "strategy_equity": 189876.9,
-      "benchmark_equity": 48186.06,
+      "price": 0.0039109135558975435,
+      "strategy_equity": 130532.18,
+      "benchmark_equity": 66982.32,
       "signal": 1
     },
     {
       "date": "2025-11-14",
-      "price": 0.00348283710881,
-      "strategy_equity": 181619.96,
-      "benchmark_equity": 46090.65,
-      "signal": 1
+      "price": 0.0036353319008063994,
+      "strategy_equity": 121334.26,
+      "benchmark_equity": 62262.43,
+      "signal": 0
     },
     {
       "date": "2025-11-15",
-      "price": 0.00359189746692,
-      "strategy_equity": 187307.15,
-      "benchmark_equity": 47533.92,
+      "price": 0.0034925631614171563,
+      "strategy_equity": 116569.16,
+      "benchmark_equity": 59817.22,
       "signal": 0
     },
     {
       "date": "2025-11-16",
-      "price": 0.00341870312614,
-      "strategy_equity": 187310.52,
-      "benchmark_equity": 45241.92,
+      "price": 0.00359307769393767,
+      "strategy_equity": 116569.16,
+      "benchmark_equity": 61538.74,
       "signal": 0
     },
     {
       "date": "2025-11-17",
-      "price": 0.00288268934075,
-      "strategy_equity": 187310.52,
-      "benchmark_equity": 38148.51,
+      "price": 0.003428862814703303,
+      "strategy_equity": 116569.16,
+      "benchmark_equity": 58726.23,
       "signal": 0
     },
     {
       "date": "2025-11-18",
-      "price": 0.00313114683731,
-      "strategy_equity": 187310.52,
-      "benchmark_equity": 41436.51,
+      "price": 0.002879848327554575,
+      "strategy_equity": 116569.16,
+      "benchmark_equity": 49323.24,
       "signal": 0
     },
     {
       "date": "2025-11-19",
-      "price": 0.00319233931663,
-      "strategy_equity": 187310.52,
-      "benchmark_equity": 42246.31,
+      "price": 0.003132784028182436,
+      "strategy_equity": 116569.16,
+      "benchmark_equity": 53655.28,
       "signal": 0
     },
     {
       "date": "2025-11-20",
-      "price": 0.00294080781533,
-      "strategy_equity": 187310.52,
-      "benchmark_equity": 38917.63,
-      "signal": 1
+      "price": 0.0031840474292947674,
+      "strategy_equity": 116569.16,
+      "benchmark_equity": 54533.27,
+      "signal": 0
     },
     {
       "date": "2025-11-21",
-      "price": 0.00274203720479,
-      "strategy_equity": 174706.58,
-      "benchmark_equity": 36287.16,
-      "signal": 1
+      "price": 0.0029476807687956975,
+      "strategy_equity": 116569.16,
+      "benchmark_equity": 50485.01,
+      "signal": 0
     },
     {
       "date": "2025-11-22",
-      "price": 0.00265896549612,
-      "strategy_equity": 169413.74,
-      "benchmark_equity": 35187.82,
-      "signal": 1
+      "price": 0.0027474694563279682,
+      "strategy_equity": 116569.16,
+      "benchmark_equity": 47055.98,
+      "signal": 0
     },
     {
       "date": "2025-11-23",
-      "price": 0.00252158146009,
-      "strategy_equity": 160660.43,
-      "benchmark_equity": 33369.73,
+      "price": 0.0026600938991862724,
+      "strategy_equity": 116569.16,
+      "benchmark_equity": 45559.5,
       "signal": 0
     },
     {
       "date": "2025-11-24",
-      "price": 0.00281268696451,
-      "strategy_equity": 160660.43,
-      "benchmark_equity": 37222.12,
+      "price": 0.0025245783861050893,
+      "strategy_equity": 116569.16,
+      "benchmark_equity": 43238.52,
       "signal": 0
     },
     {
       "date": "2025-11-25",
-      "price": 0.00277946935806,
-      "strategy_equity": 160660.43,
-      "benchmark_equity": 36782.53,
+      "price": 0.0028144817056913025,
+      "strategy_equity": 116569.16,
+      "benchmark_equity": 48203.7,
       "signal": 0
     },
     {
       "date": "2025-11-26",
-      "price": 0.00293104215491,
-      "strategy_equity": 160660.43,
-      "benchmark_equity": 38788.39,
+      "price": 0.0027835604659208,
+      "strategy_equity": 116569.16,
+      "benchmark_equity": 47674.12,
       "signal": 0
     },
     {
       "date": "2025-11-27",
-      "price": 0.0029193422036,
-      "strategy_equity": 160660.43,
-      "benchmark_equity": 38633.56,
+      "price": 0.00293379087359078,
+      "strategy_equity": 116569.16,
+      "benchmark_equity": 50247.12,
       "signal": 1
     },
     {
       "date": "2025-11-28",
-      "price": 0.00292378839625,
-      "strategy_equity": 160899.57,
-      "benchmark_equity": 38692.4,
+      "price": 0.0029163156632807255,
+      "strategy_equity": 116569.16,
+      "benchmark_equity": 49947.82,
       "signal": 1
     },
     {
       "date": "2025-11-29",
-      "price": 0.00289387123602,
-      "strategy_equity": 159253.19,
-      "benchmark_equity": 38296.48,
+      "price": 0.0029249237247898274,
+      "strategy_equity": 116913.23,
+      "benchmark_equity": 50095.25,
       "signal": 1
     },
     {
       "date": "2025-11-30",
-      "price": 0.00295685759836,
-      "strategy_equity": 162719.41,
-      "benchmark_equity": 39130.02,
+      "price": 0.0028974448401210963,
+      "strategy_equity": 115814.87,
+      "benchmark_equity": 49624.62,
       "signal": 1
     },
     {
       "date": "2025-12-01",
-      "price": 0.00280812234289,
-      "strategy_equity": 154534.33,
-      "benchmark_equity": 37161.71,
+      "price": 0.002969071746455462,
+      "strategy_equity": 118677.89,
+      "benchmark_equity": 50851.37,
       "signal": 1
     },
     {
       "date": "2025-12-02",
-      "price": 0.00325755775274,
-      "strategy_equity": 179267.29,
-      "benchmark_equity": 43109.38,
+      "price": 0.0027971125814451607,
+      "strategy_equity": 111804.45,
+      "benchmark_equity": 47906.22,
       "signal": 0
     },
     {
       "date": "2025-12-03",
-      "price": 0.0031726926588,
-      "strategy_equity": 179273.26,
-      "benchmark_equity": 41986.31,
+      "price": 0.003250691534822708,
+      "strategy_equity": 129934.62,
+      "benchmark_equity": 55674.68,
       "signal": 1
     },
     {
       "date": "2025-12-04",
-      "price": 0.00312094424455,
-      "strategy_equity": 176408.88,
-      "benchmark_equity": 41301.49,
+      "price": 0.00317367549072765,
+      "strategy_equity": 129934.62,
+      "benchmark_equity": 54355.63,
       "signal": 1
     },
     {
       "date": "2025-12-05",
-      "price": 0.00284073318249,
-      "strategy_equity": 160570.17,
-      "benchmark_equity": 37593.27,
+      "price": 0.0031203277811969973,
+      "strategy_equity": 127750.49,
+      "benchmark_equity": 53441.94,
       "signal": 1
     },
     {
       "date": "2025-12-06",
-      "price": 0.00298347224641,
-      "strategy_equity": 168638.38,
-      "benchmark_equity": 39482.23,
+      "price": 0.0028407834256857114,
+      "strategy_equity": 116305.57,
+      "benchmark_equity": 48654.18,
       "signal": 1
     },
     {
       "date": "2025-12-07",
-      "price": 0.00290918538066,
-      "strategy_equity": 164439.38,
-      "benchmark_equity": 38499.14,
+      "price": 0.0029794994290198305,
+      "strategy_equity": 121984.79,
+      "benchmark_equity": 51029.97,
       "signal": 0
     },
     {
       "date": "2025-12-08",
-      "price": 0.0030555215257,
-      "strategy_equity": 164465.27,
-      "benchmark_equity": 40435.71,
+      "price": 0.002896848656892654,
+      "strategy_equity": 118600.95,
+      "benchmark_equity": 49614.41,
       "signal": 0
     },
     {
       "date": "2025-12-09",
-      "price": 0.00306480667579,
-      "strategy_equity": 164465.27,
-      "benchmark_equity": 40558.58,
+      "price": 0.003054719588666618,
+      "strategy_equity": 118600.95,
+      "benchmark_equity": 52318.27,
       "signal": 0
     },
     {
       "date": "2025-12-10",
-      "price": 0.00287305619408,
-      "strategy_equity": 164465.27,
-      "benchmark_equity": 38021.02,
+      "price": 0.003066097149379397,
+      "strategy_equity": 118600.95,
+      "benchmark_equity": 52513.13,
       "signal": 0
     },
     {
       "date": "2025-12-11",
-      "price": 0.00286009282089,
-      "strategy_equity": 164465.27,
-      "benchmark_equity": 37849.47,
+      "price": 0.002873401059480596,
+      "strategy_equity": 118600.95,
+      "benchmark_equity": 49212.82,
       "signal": 1
     },
     {
       "date": "2025-12-12",
-      "price": 0.0027587270883,
-      "strategy_equity": 158636.39,
-      "benchmark_equity": 36508.03,
+      "price": 0.0028616406124634584,
+      "strategy_equity": 118600.95,
+      "benchmark_equity": 49011.4,
       "signal": 1
     },
     {
       "date": "2025-12-13",
-      "price": 0.00279697244193,
-      "strategy_equity": 160835.63,
-      "benchmark_equity": 37014.16,
+      "price": 0.00276023123176205,
+      "strategy_equity": 114398.03,
+      "benchmark_equity": 47274.56,
       "signal": 1
     },
     {
       "date": "2025-12-14",
-      "price": 0.00264517827553,
-      "strategy_equity": 152106.94,
-      "benchmark_equity": 35005.37,
+      "price": 0.002797877306789966,
+      "strategy_equity": 115958.28,
+      "benchmark_equity": 47919.32,
       "signal": 0
     },
     {
       "date": "2025-12-15",
-      "price": 0.00251839308087,
-      "strategy_equity": 152109.03,
-      "benchmark_equity": 33327.54,
+      "price": 0.0026472321679768085,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 45339.22,
       "signal": 0
     },
     {
       "date": "2025-12-16",
-      "price": 0.00234666326108,
-      "strategy_equity": 152109.03,
-      "benchmark_equity": 31054.92,
+      "price": 0.002516019199660185,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 43091.93,
       "signal": 0
     },
     {
       "date": "2025-12-17",
-      "price": 0.00208820288459,
-      "strategy_equity": 152109.03,
-      "benchmark_equity": 27634.55,
+      "price": 0.002348420803975755,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 40221.47,
       "signal": 0
     },
     {
       "date": "2025-12-18",
-      "price": 0.00186415568584,
-      "strategy_equity": 152109.03,
-      "benchmark_equity": 24669.59,
+      "price": 0.0020892610198897463,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 35782.83,
       "signal": 0
     },
     {
       "date": "2025-12-19",
-      "price": 0.00198890339055,
-      "strategy_equity": 152109.03,
-      "benchmark_equity": 26320.45,
-      "signal": 1
+      "price": 0.0018641218933785936,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 31926.87,
+      "signal": 0
     },
     {
       "date": "2025-12-20",
-      "price": 0.00196556202562,
-      "strategy_equity": 150323.91,
-      "benchmark_equity": 26011.56,
+      "price": 0.001989298153762708,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 34070.76,
       "signal": 0
     },
     {
       "date": "2025-12-21",
-      "price": 0.00197305194042,
-      "strategy_equity": 150323.91,
-      "benchmark_equity": 26110.68,
+      "price": 0.001965362047662825,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 33660.81,
       "signal": 0
     },
     {
       "date": "2025-12-22",
-      "price": 0.00190961027637,
-      "strategy_equity": 150323.91,
-      "benchmark_equity": 25271.12,
+      "price": 0.0019790986439275466,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 33896.08,
       "signal": 0
     },
     {
       "date": "2025-12-23",
-      "price": 0.0017312839888,
-      "strategy_equity": 150323.91,
-      "benchmark_equity": 22911.21,
-      "signal": 1
+      "price": 0.0019100973702979344,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 32714.29,
+      "signal": 0
     },
     {
       "date": "2025-12-24",
-      "price": 0.0017415714663,
-      "strategy_equity": 151217.15,
-      "benchmark_equity": 23047.35,
-      "signal": 1
+      "price": 0.0017320506115722882,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 29664.88,
+      "signal": 0
     },
     {
       "date": "2025-12-25",
-      "price": 0.00173202773405,
-      "strategy_equity": 150388.49,
-      "benchmark_equity": 22921.05,
-      "signal": 1
+      "price": 0.0017424826047136154,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 29843.55,
+      "signal": 0
     },
     {
       "date": "2025-12-26",
-      "price": 0.00180488774563,
-      "strategy_equity": 156714.78,
-      "benchmark_equity": 23885.25,
+      "price": 0.0017322068913153566,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 29667.55,
       "signal": 0
     },
     {
       "date": "2025-12-27",
-      "price": 0.00187567557111,
-      "strategy_equity": 156714.78,
-      "benchmark_equity": 24822.04,
+      "price": 0.0018071677808534652,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 30951.41,
       "signal": 0
     },
     {
       "date": "2025-12-28",
-      "price": 0.00188077998418,
-      "strategy_equity": 156714.78,
-      "benchmark_equity": 24889.59,
+      "price": 0.0018738718516598683,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 32093.85,
       "signal": 0
     },
     {
       "date": "2025-12-29",
-      "price": 0.00180767748947,
-      "strategy_equity": 156714.78,
-      "benchmark_equity": 23922.17,
+      "price": 0.0018818934185090858,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 32231.24,
       "signal": 1
     },
     {
       "date": "2025-12-30",
-      "price": 0.00184309494678,
-      "strategy_equity": 159782.31,
-      "benchmark_equity": 24390.88,
+      "price": 0.0018075564602864306,
+      "strategy_equity": 109714.78,
+      "benchmark_equity": 30958.07,
       "signal": 1
     },
     {
       "date": "2025-12-31",
-      "price": 0.001913116064,
-      "strategy_equity": 165852.61,
-      "benchmark_equity": 25317.51,
+      "price": 0.001842533790042498,
+      "strategy_equity": 111837.82,
+      "benchmark_equity": 31557.13,
       "signal": 1
     },
     {
       "date": "2026-01-01",
-      "price": 0.00210619563101,
-      "strategy_equity": 182591.14,
-      "benchmark_equity": 27872.66,
+      "price": 0.0019164295032522759,
+      "strategy_equity": 116323.13,
+      "benchmark_equity": 32822.74,
       "signal": 1
     },
     {
       "date": "2026-01-02",
-      "price": 0.00226966314395,
-      "strategy_equity": 196762.53,
-      "benchmark_equity": 30035.93,
+      "price": 0.002110655701864867,
+      "strategy_equity": 128112.25,
+      "benchmark_equity": 36149.26,
       "signal": 0
     },
     {
       "date": "2026-01-03",
-      "price": 0.00232640556578,
-      "strategy_equity": 196760.6,
-      "benchmark_equity": 30786.84,
+      "price": 0.0022670241891927885,
+      "strategy_equity": 137603.47,
+      "benchmark_equity": 38827.39,
       "signal": 0
     },
     {
       "date": "2026-01-04",
-      "price": 0.00235164887837,
-      "strategy_equity": 196760.6,
-      "benchmark_equity": 31120.9,
+      "price": 0.0023265186556822933,
+      "strategy_equity": 137603.47,
+      "benchmark_equity": 39846.35,
       "signal": 0
     },
     {
       "date": "2026-01-05",
-      "price": 0.00250710471057,
-      "strategy_equity": 196760.6,
-      "benchmark_equity": 33178.15,
+      "price": 0.0023475162033139317,
+      "strategy_equity": 137603.47,
+      "benchmark_equity": 40205.97,
       "signal": 0
     },
     {
       "date": "2026-01-06",
-      "price": 0.00265622135773,
-      "strategy_equity": 196760.6,
-      "benchmark_equity": 35151.51,
+      "price": 0.0025095630487448036,
+      "strategy_equity": 137603.47,
+      "benchmark_equity": 42981.35,
       "signal": 0
     },
     {
       "date": "2026-01-07",
-      "price": 0.00235234458119,
-      "strategy_equity": 196760.6,
-      "benchmark_equity": 31130.11,
+      "price": 0.002653717066816894,
+      "strategy_equity": 137603.47,
+      "benchmark_equity": 45450.28,
       "signal": 1
     },
     {
       "date": "2026-01-08",
-      "price": 0.00218382753437,
-      "strategy_equity": 182665.09,
-      "benchmark_equity": 28900.01,
+      "price": 0.002349772702505679,
+      "strategy_equity": 137603.47,
+      "benchmark_equity": 40244.62,
       "signal": 1
     },
     {
       "date": "2026-01-09",
-      "price": 0.00234885866948,
-      "strategy_equity": 196469.03,
-      "benchmark_equity": 31083.98,
+      "price": 0.0021841354345695837,
+      "strategy_equity": 127903.7,
+      "benchmark_equity": 37407.75,
       "signal": 1
     },
     {
       "date": "2026-01-10",
-      "price": 0.00229039667861,
-      "strategy_equity": 191579.0,
-      "benchmark_equity": 30310.31,
+      "price": 0.0023499650913171876,
+      "strategy_equity": 137614.74,
+      "benchmark_equity": 40247.92,
       "signal": 1
     },
     {
       "date": "2026-01-11",
-      "price": 0.0023923716362,
-      "strategy_equity": 200108.65,
-      "benchmark_equity": 31659.81,
+      "price": 0.0022948865759673505,
+      "strategy_equity": 134389.33,
+      "benchmark_equity": 39304.58,
       "signal": 1
     },
     {
       "date": "2026-01-12",
-      "price": 0.00243044942972,
-      "strategy_equity": 203293.64,
-      "benchmark_equity": 32163.72,
+      "price": 0.002387363456711771,
+      "strategy_equity": 139804.8,
+      "benchmark_equity": 40888.44,
       "signal": 0
     },
     {
       "date": "2026-01-13",
-      "price": 0.00265796781351,
-      "strategy_equity": 203347.51,
-      "benchmark_equity": 35174.62,
+      "price": 0.0024255130223464214,
+      "strategy_equity": 142038.85,
+      "benchmark_equity": 41541.83,
       "signal": 1
     },
     {
       "date": "2026-01-14",
-      "price": 0.00281749561571,
-      "strategy_equity": 215504.98,
-      "benchmark_equity": 37285.75,
+      "price": 0.002655982384610214,
+      "strategy_equity": 142038.85,
+      "benchmark_equity": 45489.08,
       "signal": 1
     },
     {
       "date": "2026-01-15",
-      "price": 0.00271768180462,
-      "strategy_equity": 207870.41,
-      "benchmark_equity": 35964.85,
+      "price": 0.0028217555824358296,
+      "strategy_equity": 150904.21,
+      "benchmark_equity": 48328.28,
       "signal": 1
     },
     {
       "date": "2026-01-16",
-      "price": 0.00295774050491,
-      "strategy_equity": 226232.05,
-      "benchmark_equity": 39141.71,
+      "price": 0.0027150301299199544,
+      "strategy_equity": 145196.66,
+      "benchmark_equity": 46500.4,
       "signal": 1
     },
     {
       "date": "2026-01-17",
-      "price": 0.00279552838909,
-      "strategy_equity": 213824.75,
-      "benchmark_equity": 36995.05,
-      "signal": 1
+      "price": 0.0029539472771861128,
+      "strategy_equity": 157973.67,
+      "benchmark_equity": 50592.34,
+      "signal": 0
     },
     {
       "date": "2026-01-18",
-      "price": 0.00260099672269,
-      "strategy_equity": 198945.38,
-      "benchmark_equity": 34420.68,
+      "price": 0.002790858402751895,
+      "strategy_equity": 149251.87,
+      "benchmark_equity": 47799.11,
       "signal": 0
     },
     {
       "date": "2026-01-19",
-      "price": 0.00264137812774,
-      "strategy_equity": 199036.85,
-      "benchmark_equity": 34955.08,
+      "price": 0.0026162417696184445,
+      "strategy_equity": 149251.87,
+      "benchmark_equity": 44808.44,
       "signal": 0
     },
     {
       "date": "2026-01-20",
-      "price": 0.00239482326186,
-      "strategy_equity": 199036.85,
-      "benchmark_equity": 31692.26,
+      "price": 0.002645115433398399,
+      "strategy_equity": 149251.87,
+      "benchmark_equity": 45302.96,
       "signal": 0
     },
     {
       "date": "2026-01-21",
-      "price": 0.00264287752808,
-      "strategy_equity": 199036.85,
-      "benchmark_equity": 34974.92,
+      "price": 0.0023954990431421636,
+      "strategy_equity": 149251.87,
+      "benchmark_equity": 41027.78,
       "signal": 0
     },
     {
       "date": "2026-01-22",
-      "price": 0.00246855191902,
-      "strategy_equity": 199036.85,
-      "benchmark_equity": 32667.96,
+      "price": 0.002642684820701232,
+      "strategy_equity": 149251.87,
+      "benchmark_equity": 45261.34,
       "signal": 0
     },
     {
       "date": "2026-01-23",
-      "price": 0.00239386912619,
-      "strategy_equity": 199036.85,
-      "benchmark_equity": 31679.63,
+      "price": 0.0024649693595726325,
+      "strategy_equity": 149251.87,
+      "benchmark_equity": 42217.6,
       "signal": 0
     },
     {
       "date": "2026-01-24",
-      "price": 0.00274130577282,
-      "strategy_equity": 199036.85,
-      "benchmark_equity": 36277.48,
+      "price": 0.002395042046666471,
+      "strategy_equity": 149251.87,
+      "benchmark_equity": 41019.95,
       "signal": 0
     },
     {
       "date": "2026-01-25",
-      "price": 0.00246152122269,
-      "strategy_equity": 199036.85,
-      "benchmark_equity": 32574.91,
-      "signal": 1
+      "price": 0.002737161167567738,
+      "strategy_equity": 149251.87,
+      "benchmark_equity": 46879.43,
+      "signal": 0
     },
     {
       "date": "2026-01-26",
-      "price": 0.00270856565061,
-      "strategy_equity": 219069.66,
-      "benchmark_equity": 35844.21,
+      "price": 0.002462056821493866,
+      "strategy_equity": 149251.87,
+      "benchmark_equity": 42167.71,
       "signal": 1
     },
     {
       "date": "2026-01-27",
-      "price": 0.00317072704995,
-      "strategy_equity": 256449.42,
-      "benchmark_equity": 41960.3,
-      "signal": 1
+      "price": 0.0027074152821485375,
+      "strategy_equity": 149251.87,
+      "benchmark_equity": 46369.98,
+      "signal": 0
     },
     {
       "date": "2026-01-28",
-      "price": 0.00306433563377,
-      "strategy_equity": 247844.45,
-      "benchmark_equity": 40552.35,
+      "price": 0.003179144992926258,
+      "strategy_equity": 175256.94,
+      "benchmark_equity": 54449.3,
       "signal": 1
     },
     {
       "date": "2026-01-29",
-      "price": 0.00282333932806,
-      "strategy_equity": 228352.59,
-      "benchmark_equity": 37363.09,
+      "price": 0.003064917058494689,
+      "strategy_equity": 175256.94,
+      "benchmark_equity": 52492.92,
       "signal": 1
     },
     {
       "date": "2026-01-30",
-      "price": 0.0028064599284,
-      "strategy_equity": 226987.38,
-      "benchmark_equity": 37139.71,
+      "price": 0.0028260441489279726,
+      "strategy_equity": 161597.8,
+      "benchmark_equity": 48401.74,
       "signal": 1
     },
     {
       "date": "2026-01-31",
-      "price": 0.00269702612272,
-      "strategy_equity": 218136.34,
-      "benchmark_equity": 35691.5,
+      "price": 0.002802724179454625,
+      "strategy_equity": 160264.33,
+      "benchmark_equity": 48002.33,
       "signal": 0
     },
     {
       "date": "2026-02-01",
-      "price": 0.00255938036779,
-      "strategy_equity": 218123.17,
-      "benchmark_equity": 33869.95,
+      "price": 0.002697299048268861,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 46196.71,
       "signal": 0
     },
     {
       "date": "2026-02-02",
-      "price": 0.00240248978283,
-      "strategy_equity": 218123.17,
-      "benchmark_equity": 31793.71,
+      "price": 0.0025641238372557033,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 43915.82,
       "signal": 0
     },
     {
       "date": "2026-02-03",
-      "price": 0.00239682908736,
-      "strategy_equity": 218123.17,
-      "benchmark_equity": 31718.8,
+      "price": 0.0024050881589012703,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 41192.01,
       "signal": 0
     },
     {
       "date": "2026-02-04",
-      "price": 0.00226264000497,
-      "strategy_equity": 218123.17,
-      "benchmark_equity": 29942.99,
+      "price": 0.0023987844104752507,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 41084.05,
       "signal": 0
     },
     {
       "date": "2026-02-05",
-      "price": 0.00192822508178,
-      "strategy_equity": 218123.17,
-      "benchmark_equity": 25517.46,
+      "price": 0.0022683566108546655,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 38850.21,
       "signal": 0
     },
     {
       "date": "2026-02-06",
-      "price": 0.00211153062473,
-      "strategy_equity": 218123.17,
-      "benchmark_equity": 27943.26,
+      "price": 0.0019348580962238752,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 33138.37,
       "signal": 0
     },
     {
       "date": "2026-02-07",
-      "price": 0.00209664666261,
-      "strategy_equity": 218123.17,
-      "benchmark_equity": 27746.29,
+      "price": 0.0021133637558540513,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 36195.64,
       "signal": 0
     },
     {
       "date": "2026-02-08",
-      "price": 0.00209174243935,
-      "strategy_equity": 218123.17,
-      "benchmark_equity": 27681.39,
+      "price": 0.0020992899123236605,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 35954.6,
       "signal": 0
     },
     {
       "date": "2026-02-09",
-      "price": 0.00200039233672,
-      "strategy_equity": 218123.17,
-      "benchmark_equity": 26472.49,
+      "price": 0.0020993248688464224,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 35955.19,
       "signal": 0
     },
     {
       "date": "2026-02-10",
-      "price": 0.00190971132454,
-      "strategy_equity": 218123.17,
-      "benchmark_equity": 25272.45,
+      "price": 0.0020037557718517378,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 34318.38,
       "signal": 0
+    },
+    {
+      "date": "2026-02-11",
+      "price": 0.0019105466724556605,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 32721.98,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-12",
+      "price": 0.0018422946314559103,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 31553.03,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-13",
+      "price": 0.001919504377391762,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 32875.4,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-14",
+      "price": 0.0020925001109109074,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 35838.31,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-15",
+      "price": 0.0023500663803226645,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 40249.65,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-16",
+      "price": 0.002199267621890855,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 37666.92,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-17",
+      "price": 0.0022194742546178267,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 38013.0,
+      "signal": 0
+    },
+    {
+      "date": "2026-02-18",
+      "price": 0.002201562866148963,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 37706.23,
+      "signal": 1
+    },
+    {
+      "date": "2026-02-19",
+      "price": 0.0020131877811875964,
+      "strategy_equity": 154235.95,
+      "benchmark_equity": 34479.92,
+      "signal": 1
+    }
+  ],
+  "daily_history": [
+    {
+      "date": "2026-02-19",
+      "price": 0.002013,
+      "revenue": 882581.0,
+      "signal": "看多 (Long)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-18",
+      "price": 0.002202,
+      "revenue": 1038922.0,
+      "signal": "看多 (Long)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-17",
+      "price": 0.002219,
+      "revenue": 1088564.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-16",
+      "price": 0.002199,
+      "revenue": 920002.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-15",
+      "price": 0.00235,
+      "revenue": 815770.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-14",
+      "price": 0.002093,
+      "revenue": 768993.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-13",
+      "price": 0.00192,
+      "revenue": 928425.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-12",
+      "price": 0.001842,
+      "revenue": 858617.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-11",
+      "price": 0.001911,
+      "revenue": 876124.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-10",
+      "price": 0.002004,
+      "revenue": 944344.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-09",
+      "price": 0.002099,
+      "revenue": 879677.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-08",
+      "price": 0.002099,
+      "revenue": 821324.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-07",
+      "price": 0.002113,
+      "revenue": 883222.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-06",
+      "price": 0.001935,
+      "revenue": 873583.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-05",
+      "price": 0.002268,
+      "revenue": 917579.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-04",
+      "price": 0.002399,
+      "revenue": 1000711.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-03",
+      "price": 0.002405,
+      "revenue": 1086714.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-02",
+      "price": 0.002564,
+      "revenue": 1020385.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-02-01",
+      "price": 0.002697,
+      "revenue": 940227.0,
+      "signal": "空仓 (Empty)",
+      "equity": 154235.95
+    },
+    {
+      "date": "2026-01-31",
+      "price": 0.002803,
+      "revenue": 1091344.0,
+      "signal": "空仓 (Empty)",
+      "equity": 160264.33
+    },
+    {
+      "date": "2026-01-30",
+      "price": 0.002826,
+      "revenue": 1465637.0,
+      "signal": "看多 (Long)",
+      "equity": 161597.8
+    },
+    {
+      "date": "2026-01-29",
+      "price": 0.003065,
+      "revenue": 1324628.0,
+      "signal": "看多 (Long)",
+      "equity": 175256.94
+    },
+    {
+      "date": "2026-01-28",
+      "price": 0.003179,
+      "revenue": 1425868.0,
+      "signal": "看多 (Long)",
+      "equity": 175256.94
+    },
+    {
+      "date": "2026-01-27",
+      "price": 0.002707,
+      "revenue": 1485716.0,
+      "signal": "空仓 (Empty)",
+      "equity": 149251.87
+    },
+    {
+      "date": "2026-01-26",
+      "price": 0.002462,
+      "revenue": 1537482.0,
+      "signal": "看多 (Long)",
+      "equity": 149251.87
+    },
+    {
+      "date": "2026-01-25",
+      "price": 0.002737,
+      "revenue": 1298723.0,
+      "signal": "空仓 (Empty)",
+      "equity": 149251.87
+    },
+    {
+      "date": "2026-01-24",
+      "price": 0.002395,
+      "revenue": 1155512.0,
+      "signal": "空仓 (Empty)",
+      "equity": 149251.87
+    },
+    {
+      "date": "2026-01-23",
+      "price": 0.002465,
+      "revenue": 851576.0,
+      "signal": "空仓 (Empty)",
+      "equity": 149251.87
+    },
+    {
+      "date": "2026-01-22",
+      "price": 0.002643,
+      "revenue": 777687.0,
+      "signal": "空仓 (Empty)",
+      "equity": 149251.87
+    },
+    {
+      "date": "2026-01-21",
+      "price": 0.002395,
+      "revenue": 761594.0,
+      "signal": "空仓 (Empty)",
+      "equity": 149251.87
+    },
+    {
+      "date": "2026-01-20",
+      "price": 0.002645,
+      "revenue": 814416.0,
+      "signal": "空仓 (Empty)",
+      "equity": 149251.87
+    },
+    {
+      "date": "2026-01-19",
+      "price": 0.002616,
+      "revenue": 871369.0,
+      "signal": "空仓 (Empty)",
+      "equity": 149251.87
+    },
+    {
+      "date": "2026-01-18",
+      "price": 0.002791,
+      "revenue": 858372.0,
+      "signal": "空仓 (Empty)",
+      "equity": 149251.87
+    },
+    {
+      "date": "2026-01-17",
+      "price": 0.002954,
+      "revenue": 797740.0,
+      "signal": "空仓 (Empty)",
+      "equity": 157973.67
+    },
+    {
+      "date": "2026-01-16",
+      "price": 0.002715,
+      "revenue": 754462.0,
+      "signal": "看多 (Long)",
+      "equity": 145196.66
+    },
+    {
+      "date": "2026-01-15",
+      "price": 0.002822,
+      "revenue": 1334220.0,
+      "signal": "看多 (Long)",
+      "equity": 150904.21
+    },
+    {
+      "date": "2026-01-14",
+      "price": 0.002656,
+      "revenue": 1228329.0,
+      "signal": "看多 (Long)",
+      "equity": 142038.85
+    },
+    {
+      "date": "2026-01-13",
+      "price": 0.002426,
+      "revenue": 1196162.0,
+      "signal": "看多 (Long)",
+      "equity": 142038.85
+    },
+    {
+      "date": "2026-01-12",
+      "price": 0.002387,
+      "revenue": 1152666.0,
+      "signal": "空仓 (Empty)",
+      "equity": 139804.8
+    },
+    {
+      "date": "2026-01-11",
+      "price": 0.002295,
+      "revenue": 980460.0,
+      "signal": "看多 (Long)",
+      "equity": 134389.33
+    },
+    {
+      "date": "2026-01-10",
+      "price": 0.00235,
+      "revenue": 971270.0,
+      "signal": "看多 (Long)",
+      "equity": 137614.74
+    },
+    {
+      "date": "2026-01-09",
+      "price": 0.002184,
+      "revenue": 1033717.0,
+      "signal": "看多 (Long)",
+      "equity": 127903.7
+    },
+    {
+      "date": "2026-01-08",
+      "price": 0.00235,
+      "revenue": 993226.0,
+      "signal": "看多 (Long)",
+      "equity": 137603.47
+    },
+    {
+      "date": "2026-01-07",
+      "price": 0.002654,
+      "revenue": 997896.0,
+      "signal": "看多 (Long)",
+      "equity": 137603.47
+    },
+    {
+      "date": "2026-01-06",
+      "price": 0.00251,
+      "revenue": 1091285.0,
+      "signal": "空仓 (Empty)",
+      "equity": 137603.47
+    },
+    {
+      "date": "2026-01-05",
+      "price": 0.002348,
+      "revenue": 878573.0,
+      "signal": "空仓 (Empty)",
+      "equity": 137603.47
+    },
+    {
+      "date": "2026-01-04",
+      "price": 0.002327,
+      "revenue": 612209.0,
+      "signal": "空仓 (Empty)",
+      "equity": 137603.47
+    },
+    {
+      "date": "2026-01-03",
+      "price": 0.002267,
+      "revenue": 564891.0,
+      "signal": "空仓 (Empty)",
+      "equity": 137603.47
+    },
+    {
+      "date": "2026-01-02",
+      "price": 0.002111,
+      "revenue": 754194.0,
+      "signal": "空仓 (Empty)",
+      "equity": 128112.25
+    },
+    {
+      "date": "2026-01-01",
+      "price": 0.001916,
+      "revenue": 697827.0,
+      "signal": "看多 (Long)",
+      "equity": 116323.13
+    },
+    {
+      "date": "2025-12-31",
+      "price": 0.001843,
+      "revenue": 722729.0,
+      "signal": "看多 (Long)",
+      "equity": 111837.82
+    },
+    {
+      "date": "2025-12-30",
+      "price": 0.001808,
+      "revenue": 845895.0,
+      "signal": "看多 (Long)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-29",
+      "price": 0.001882,
+      "revenue": 839562.0,
+      "signal": "看多 (Long)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-28",
+      "price": 0.001874,
+      "revenue": 777011.0,
+      "signal": "空仓 (Empty)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-27",
+      "price": 0.001807,
+      "revenue": 723405.0,
+      "signal": "空仓 (Empty)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-26",
+      "price": 0.001732,
+      "revenue": 702853.0,
+      "signal": "空仓 (Empty)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-25",
+      "price": 0.001742,
+      "revenue": 650871.0,
+      "signal": "空仓 (Empty)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-24",
+      "price": 0.001732,
+      "revenue": 698727.0,
+      "signal": "空仓 (Empty)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-23",
+      "price": 0.00191,
+      "revenue": 792224.0,
+      "signal": "空仓 (Empty)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-22",
+      "price": 0.001979,
+      "revenue": 868393.0,
+      "signal": "空仓 (Empty)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-21",
+      "price": 0.001965,
+      "revenue": 638747.0,
+      "signal": "空仓 (Empty)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-20",
+      "price": 0.001989,
+      "revenue": 624820.0,
+      "signal": "空仓 (Empty)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-19",
+      "price": 0.001864,
+      "revenue": 639750.0,
+      "signal": "空仓 (Empty)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-18",
+      "price": 0.002089,
+      "revenue": 630241.0,
+      "signal": "空仓 (Empty)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-17",
+      "price": 0.002348,
+      "revenue": 653883.0,
+      "signal": "空仓 (Empty)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-16",
+      "price": 0.002516,
+      "revenue": 683105.0,
+      "signal": "空仓 (Empty)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-15",
+      "price": 0.002647,
+      "revenue": 657143.0,
+      "signal": "空仓 (Empty)",
+      "equity": 109714.78
+    },
+    {
+      "date": "2025-12-14",
+      "price": 0.002798,
+      "revenue": 631324.0,
+      "signal": "空仓 (Empty)",
+      "equity": 115958.28
+    },
+    {
+      "date": "2025-12-13",
+      "price": 0.00276,
+      "revenue": 605870.0,
+      "signal": "看多 (Long)",
+      "equity": 114398.03
+    },
+    {
+      "date": "2025-12-12",
+      "price": 0.002862,
+      "revenue": 779607.0,
+      "signal": "看多 (Long)",
+      "equity": 118600.95
+    },
+    {
+      "date": "2025-12-11",
+      "price": 0.002873,
+      "revenue": 840751.0,
+      "signal": "看多 (Long)",
+      "equity": 118600.95
+    },
+    {
+      "date": "2025-12-10",
+      "price": 0.003066,
+      "revenue": 810530.0,
+      "signal": "空仓 (Empty)",
+      "equity": 118600.95
+    },
+    {
+      "date": "2025-12-09",
+      "price": 0.003055,
+      "revenue": 826193.0,
+      "signal": "空仓 (Empty)",
+      "equity": 118600.95
+    },
+    {
+      "date": "2025-12-08",
+      "price": 0.002897,
+      "revenue": 883459.0,
+      "signal": "空仓 (Empty)",
+      "equity": 118600.95
+    },
+    {
+      "date": "2025-12-07",
+      "price": 0.002979,
+      "revenue": 600888.0,
+      "signal": "空仓 (Empty)",
+      "equity": 121984.79
+    },
+    {
+      "date": "2025-12-06",
+      "price": 0.002841,
+      "revenue": 761406.0,
+      "signal": "看多 (Long)",
+      "equity": 116305.57
+    },
+    {
+      "date": "2025-12-05",
+      "price": 0.00312,
+      "revenue": 869153.0,
+      "signal": "看多 (Long)",
+      "equity": 127750.49
+    },
+    {
+      "date": "2025-12-04",
+      "price": 0.003174,
+      "revenue": 989657.0,
+      "signal": "看多 (Long)",
+      "equity": 129934.62
+    },
+    {
+      "date": "2025-12-03",
+      "price": 0.003251,
+      "revenue": 936118.0,
+      "signal": "看多 (Long)",
+      "equity": 129934.62
+    },
+    {
+      "date": "2025-12-02",
+      "price": 0.002797,
+      "revenue": 970339.0,
+      "signal": "空仓 (Empty)",
+      "equity": 111804.45
+    },
+    {
+      "date": "2025-12-01",
+      "price": 0.002969,
+      "revenue": 796700.0,
+      "signal": "看多 (Long)",
+      "equity": 118677.89
+    },
+    {
+      "date": "2025-11-30",
+      "price": 0.002897,
+      "revenue": 752527.0,
+      "signal": "看多 (Long)",
+      "equity": 115814.87
+    },
+    {
+      "date": "2025-11-29",
+      "price": 0.002925,
+      "revenue": 803983.0,
+      "signal": "看多 (Long)",
+      "equity": 116913.23
+    },
+    {
+      "date": "2025-11-28",
+      "price": 0.002916,
+      "revenue": 870373.0,
+      "signal": "看多 (Long)",
+      "equity": 116569.16
+    },
+    {
+      "date": "2025-11-27",
+      "price": 0.002934,
+      "revenue": 778713.0,
+      "signal": "看多 (Long)",
+      "equity": 116569.16
+    },
+    {
+      "date": "2025-11-26",
+      "price": 0.002784,
+      "revenue": 865399.0,
+      "signal": "空仓 (Empty)",
+      "equity": 116569.16
+    },
+    {
+      "date": "2025-11-25",
+      "price": 0.002814,
+      "revenue": 706412.0,
+      "signal": "空仓 (Empty)",
+      "equity": 116569.16
+    },
+    {
+      "date": "2025-11-24",
+      "price": 0.002525,
+      "revenue": 593966.0,
+      "signal": "空仓 (Empty)",
+      "equity": 116569.16
+    },
+    {
+      "date": "2025-11-23",
+      "price": 0.00266,
+      "revenue": 520612.0,
+      "signal": "空仓 (Empty)",
+      "equity": 116569.16
+    },
+    {
+      "date": "2025-11-22",
+      "price": 0.002747,
+      "revenue": 617055.0,
+      "signal": "空仓 (Empty)",
+      "equity": 116569.16
+    },
+    {
+      "date": "2025-11-21",
+      "price": 0.002948,
+      "revenue": 647113.0,
+      "signal": "空仓 (Empty)",
+      "equity": 116569.16
+    },
+    {
+      "date": "2025-11-20",
+      "price": 0.003184,
+      "revenue": 757731.0,
+      "signal": "空仓 (Empty)",
+      "equity": 116569.16
+    },
+    {
+      "date": "2025-11-19",
+      "price": 0.003133,
+      "revenue": 832697.0,
+      "signal": "空仓 (Empty)",
+      "equity": 116569.16
+    },
+    {
+      "date": "2025-11-18",
+      "price": 0.00288,
+      "revenue": 770206.0,
+      "signal": "空仓 (Empty)",
+      "equity": 116569.16
+    },
+    {
+      "date": "2025-11-17",
+      "price": 0.003429,
+      "revenue": 734944.0,
+      "signal": "空仓 (Empty)",
+      "equity": 116569.16
+    },
+    {
+      "date": "2025-11-16",
+      "price": 0.003593,
+      "revenue": 681426.0,
+      "signal": "空仓 (Empty)",
+      "equity": 116569.16
+    },
+    {
+      "date": "2025-11-15",
+      "price": 0.003493,
+      "revenue": 694594.0,
+      "signal": "空仓 (Empty)",
+      "equity": 116569.16
+    },
+    {
+      "date": "2025-11-14",
+      "price": 0.003635,
+      "revenue": 780304.0,
+      "signal": "空仓 (Empty)",
+      "equity": 121334.26
+    },
+    {
+      "date": "2025-11-13",
+      "price": 0.003911,
+      "revenue": 805280.0,
+      "signal": "看多 (Long)",
+      "equity": 130532.18
+    },
+    {
+      "date": "2025-11-12",
+      "price": 0.004104,
+      "revenue": 928185.0,
+      "signal": "看多 (Long)",
+      "equity": 130532.18
+    },
+    {
+      "date": "2025-11-11",
+      "price": 0.0045,
+      "revenue": 971667.0,
+      "signal": "空仓 (Empty)",
+      "equity": 130532.18
+    },
+    {
+      "date": "2025-11-10",
+      "price": 0.004114,
+      "revenue": 1090701.0,
+      "signal": "空仓 (Empty)",
+      "equity": 130532.18
+    },
+    {
+      "date": "2025-11-09",
+      "price": 0.003788,
+      "revenue": 783695.0,
+      "signal": "空仓 (Empty)",
+      "equity": 130532.18
+    },
+    {
+      "date": "2025-11-08",
+      "price": 0.004175,
+      "revenue": 844004.0,
+      "signal": "空仓 (Empty)",
+      "equity": 130532.18
+    },
+    {
+      "date": "2025-11-07",
+      "price": 0.003696,
+      "revenue": 953582.0,
+      "signal": "空仓 (Empty)",
+      "equity": 130532.18
+    },
+    {
+      "date": "2025-11-06",
+      "price": 0.004155,
+      "revenue": 932625.0,
+      "signal": "空仓 (Empty)",
+      "equity": 130532.18
+    },
+    {
+      "date": "2025-11-05",
+      "price": 0.003765,
+      "revenue": 923001.0,
+      "signal": "空仓 (Empty)",
+      "equity": 130532.18
+    },
+    {
+      "date": "2025-11-04",
+      "price": 0.00387,
+      "revenue": 955556.0,
+      "signal": "空仓 (Empty)",
+      "equity": 130532.18
+    },
+    {
+      "date": "2025-11-03",
+      "price": 0.004357,
+      "revenue": 1033809.0,
+      "signal": "空仓 (Empty)",
+      "equity": 146959.25
+    },
+    {
+      "date": "2025-11-02",
+      "price": 0.004653,
+      "revenue": 953989.0,
+      "signal": "看多 (Long)",
+      "equity": 156918.35
+    },
+    {
+      "date": "2025-11-01",
+      "price": 0.004634,
+      "revenue": 1012808.0,
+      "signal": "看多 (Long)",
+      "equity": 156268.27
+    },
+    {
+      "date": "2025-10-31",
+      "price": 0.004414,
+      "revenue": 1030554.0,
+      "signal": "看多 (Long)",
+      "equity": 148878.83
+    },
+    {
+      "date": "2025-10-30",
+      "price": 0.005248,
+      "revenue": 1112068.0,
+      "signal": "看多 (Long)",
+      "equity": 176989.18
+    },
+    {
+      "date": "2025-10-29",
+      "price": 0.00463,
+      "revenue": 1051827.0,
+      "signal": "看多 (Long)",
+      "equity": 176989.18
+    },
+    {
+      "date": "2025-10-28",
+      "price": 0.004783,
+      "revenue": 1045256.0,
+      "signal": "空仓 (Empty)",
+      "equity": 176989.18
+    },
+    {
+      "date": "2025-10-27",
+      "price": 0.004741,
+      "revenue": 1007986.0,
+      "signal": "空仓 (Empty)",
+      "equity": 176989.18
+    },
+    {
+      "date": "2025-10-26",
+      "price": 0.004147,
+      "revenue": 779494.0,
+      "signal": "空仓 (Empty)",
+      "equity": 176989.18
+    },
+    {
+      "date": "2025-10-25",
+      "price": 0.004161,
+      "revenue": 741733.0,
+      "signal": "空仓 (Empty)",
+      "equity": 176989.18
+    },
+    {
+      "date": "2025-10-24",
+      "price": 0.003812,
+      "revenue": 859531.0,
+      "signal": "空仓 (Empty)",
+      "equity": 176989.18
+    },
+    {
+      "date": "2025-10-23",
+      "price": 0.003476,
+      "revenue": 820489.0,
+      "signal": "空仓 (Empty)",
+      "equity": 161385.45
+    },
+    {
+      "date": "2025-10-22",
+      "price": 0.003684,
+      "revenue": 882673.0,
+      "signal": "看多 (Long)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-21",
+      "price": 0.003855,
+      "revenue": 1002400.0,
+      "signal": "看多 (Long)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-20",
+      "price": 0.003905,
+      "revenue": 991200.0,
+      "signal": "空仓 (Empty)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-19",
+      "price": 0.003958,
+      "revenue": 854085.0,
+      "signal": "空仓 (Empty)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-18",
+      "price": 0.003518,
+      "revenue": 786226.0,
+      "signal": "空仓 (Empty)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-17",
+      "price": 0.003458,
+      "revenue": 774012.0,
+      "signal": "空仓 (Empty)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-16",
+      "price": 0.003822,
+      "revenue": 933625.0,
+      "signal": "空仓 (Empty)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-15",
+      "price": 0.004109,
+      "revenue": 859731.0,
+      "signal": "空仓 (Empty)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-14",
+      "price": 0.004321,
+      "revenue": 895487.0,
+      "signal": "空仓 (Empty)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-13",
+      "price": 0.004333,
+      "revenue": 698047.0,
+      "signal": "空仓 (Empty)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-12",
+      "price": 0.00377,
+      "revenue": 545023.0,
+      "signal": "空仓 (Empty)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-11",
+      "price": 0.004052,
+      "revenue": 594505.0,
+      "signal": "空仓 (Empty)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-10",
+      "price": 0.005544,
+      "revenue": 702000.0,
+      "signal": "空仓 (Empty)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-09",
+      "price": 0.006163,
+      "revenue": 774757.0,
+      "signal": "空仓 (Empty)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-08",
+      "price": 0.006441,
+      "revenue": 576984.0,
+      "signal": "空仓 (Empty)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-07",
+      "price": 0.00621,
+      "revenue": 885442.0,
+      "signal": "空仓 (Empty)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-06",
+      "price": 0.006423,
+      "revenue": 1348637.0,
+      "signal": "空仓 (Empty)",
+      "equity": 171031.62
+    },
+    {
+      "date": "2025-10-05",
+      "price": 0.006688,
+      "revenue": 1003697.0,
+      "signal": "空仓 (Empty)",
+      "equity": 178070.61
+    },
+    {
+      "date": "2025-10-04",
+      "price": 0.006872,
+      "revenue": 901886.0,
+      "signal": "看多 (Long)",
+      "equity": 182981.96
+    },
+    {
+      "date": "2025-10-03",
+      "price": 0.007038,
+      "revenue": 1253674.0,
+      "signal": "看多 (Long)",
+      "equity": 187406.37
+    },
+    {
+      "date": "2025-10-02",
+      "price": 0.007057,
+      "revenue": 1326991.0,
+      "signal": "看多 (Long)",
+      "equity": 187907.94
+    },
+    {
+      "date": "2025-10-01",
+      "price": 0.005953,
+      "revenue": 1418732.0,
+      "signal": "看多 (Long)",
+      "equity": 158495.29
+    },
+    {
+      "date": "2025-09-30",
+      "price": 0.005749,
+      "revenue": 1326271.0,
+      "signal": "看多 (Long)",
+      "equity": 158495.29
+    },
+    {
+      "date": "2025-09-29",
+      "price": 0.005966,
+      "revenue": 1295994.0,
+      "signal": "空仓 (Empty)",
+      "equity": 158495.29
+    },
+    {
+      "date": "2025-09-28",
+      "price": 0.005178,
+      "revenue": 753473.0,
+      "signal": "空仓 (Empty)",
+      "equity": 158495.29
+    },
+    {
+      "date": "2025-09-27",
+      "price": 0.005251,
+      "revenue": 771735.0,
+      "signal": "空仓 (Empty)",
+      "equity": 158495.29
+    },
+    {
+      "date": "2025-09-26",
+      "price": 0.005025,
+      "revenue": 892925.0,
+      "signal": "空仓 (Empty)",
+      "equity": 158495.29
+    },
+    {
+      "date": "2025-09-25",
+      "price": 0.005636,
+      "revenue": 897436.0,
+      "signal": "空仓 (Empty)",
+      "equity": 158495.29
+    },
+    {
+      "date": "2025-09-24",
+      "price": 0.005839,
+      "revenue": 944997.0,
+      "signal": "空仓 (Empty)",
+      "equity": 158495.29
+    },
+    {
+      "date": "2025-09-23",
+      "price": 0.00568,
+      "revenue": 1016669.0,
+      "signal": "空仓 (Empty)",
+      "equity": 158495.29
+    },
+    {
+      "date": "2025-09-22",
+      "price": 0.006544,
+      "revenue": 1074051.0,
+      "signal": "空仓 (Empty)",
+      "equity": 158495.29
+    },
+    {
+      "date": "2025-09-21",
+      "price": 0.006973,
+      "revenue": 1005244.0,
+      "signal": "空仓 (Empty)",
+      "equity": 158495.29
+    },
+    {
+      "date": "2025-09-20",
+      "price": 0.007169,
+      "revenue": 1138912.0,
+      "signal": "空仓 (Empty)",
+      "equity": 158495.29
+    },
+    {
+      "date": "2025-09-19",
+      "price": 0.007816,
+      "revenue": 1590260.0,
+      "signal": "空仓 (Empty)",
+      "equity": 172797.74
+    },
+    {
+      "date": "2025-09-18",
+      "price": 0.008205,
+      "revenue": 1424006.0,
+      "signal": "看多 (Long)",
+      "equity": 181392.56
+    },
+    {
+      "date": "2025-09-17",
+      "price": 0.007828,
+      "revenue": 1768632.0,
+      "signal": "看多 (Long)",
+      "equity": 173073.62
+    },
+    {
+      "date": "2025-09-16",
+      "price": 0.008594,
+      "revenue": 2255324.0,
+      "signal": "看多 (Long)",
+      "equity": 190009.68
+    },
+    {
+      "date": "2025-09-15",
+      "price": 0.007985,
+      "revenue": 2440989.0,
+      "signal": "看多 (Long)",
+      "equity": 190009.68
+    },
+    {
+      "date": "2025-09-14",
+      "price": 0.007433,
+      "revenue": 2276949.0,
+      "signal": "空仓 (Empty)",
+      "equity": 176876.71
+    },
+    {
+      "date": "2025-09-13",
+      "price": 0.006215,
+      "revenue": 1498416.0,
+      "signal": "看多 (Long)",
+      "equity": 147885.09
+    },
+    {
+      "date": "2025-09-12",
+      "price": 0.005946,
+      "revenue": 1753834.0,
+      "signal": "看多 (Long)",
+      "equity": 141478.58
+    },
+    {
+      "date": "2025-09-11",
+      "price": 0.005633,
+      "revenue": 1616775.0,
+      "signal": "看多 (Long)",
+      "equity": 134036.9
+    },
+    {
+      "date": "2025-09-10",
+      "price": 0.004772,
+      "revenue": 1819596.0,
+      "signal": "看多 (Long)",
+      "equity": 134036.9
+    },
+    {
+      "date": "2025-09-09",
+      "price": 0.004743,
+      "revenue": 1573752.0,
+      "signal": "空仓 (Empty)",
+      "equity": 134036.9
+    },
+    {
+      "date": "2025-09-08",
+      "price": 0.004879,
+      "revenue": 1659158.0,
+      "signal": "空仓 (Empty)",
+      "equity": 134036.9
+    },
+    {
+      "date": "2025-09-07",
+      "price": 0.00454,
+      "revenue": 1223367.0,
+      "signal": "空仓 (Empty)",
+      "equity": 124722.7
+    },
+    {
+      "date": "2025-09-06",
+      "price": 0.004635,
+      "revenue": 1219471.0,
+      "signal": "看多 (Long)",
+      "equity": 127319.88
+    },
+    {
+      "date": "2025-09-05",
+      "price": 0.004282,
+      "revenue": 1507965.0,
+      "signal": "看多 (Long)",
+      "equity": 117617.31
+    },
+    {
+      "date": "2025-09-04",
+      "price": 0.004069,
+      "revenue": 1618232.0,
+      "signal": "看多 (Long)",
+      "equity": 117617.31
+    },
+    {
+      "date": "2025-09-03",
+      "price": 0.003904,
+      "revenue": 1880914.0,
+      "signal": "空仓 (Empty)",
+      "equity": 117617.31
+    },
+    {
+      "date": "2025-09-02",
+      "price": 0.003383,
+      "revenue": 1511047.0,
+      "signal": "空仓 (Empty)",
+      "equity": 117617.31
+    },
+    {
+      "date": "2025-09-01",
+      "price": 0.003355,
+      "revenue": 1331143.0,
+      "signal": "空仓 (Empty)",
+      "equity": 117617.31
+    },
+    {
+      "date": "2025-08-31",
+      "price": 0.003436,
+      "revenue": 1209370.0,
+      "signal": "空仓 (Empty)",
+      "equity": 120457.08
+    },
+    {
+      "date": "2025-08-30",
+      "price": 0.003503,
+      "revenue": 1182628.0,
+      "signal": "看多 (Long)",
+      "equity": 122830.1
+    },
+    {
+      "date": "2025-08-29",
+      "price": 0.003511,
+      "revenue": 1528964.0,
+      "signal": "看多 (Long)",
+      "equity": 122830.1
+    },
+    {
+      "date": "2025-08-28",
+      "price": 0.003012,
+      "revenue": 2033980.0,
+      "signal": "空仓 (Empty)",
+      "equity": 122830.1
+    },
+    {
+      "date": "2025-08-27",
+      "price": 0.002872,
+      "revenue": 2086794.0,
+      "signal": "空仓 (Empty)",
+      "equity": 122830.1
+    },
+    {
+      "date": "2025-08-26",
+      "price": 0.002643,
+      "revenue": 1731404.0,
+      "signal": "空仓 (Empty)",
+      "equity": 113037.18
+    },
+    {
+      "date": "2025-08-25",
+      "price": 0.002918,
+      "revenue": 1574773.0,
+      "signal": "看多 (Long)",
+      "equity": 113037.18
+    },
+    {
+      "date": "2025-08-24",
+      "price": 0.003131,
+      "revenue": 1243690.0,
+      "signal": "空仓 (Empty)",
+      "equity": 113037.18
+    },
+    {
+      "date": "2025-08-23",
+      "price": 0.003205,
+      "revenue": 1365153.0,
+      "signal": "空仓 (Empty)",
+      "equity": 113037.18
+    },
+    {
+      "date": "2025-08-22",
+      "price": 0.002804,
+      "revenue": 1410425.0,
+      "signal": "空仓 (Empty)",
+      "equity": 113037.18
+    },
+    {
+      "date": "2025-08-21",
+      "price": 0.003139,
+      "revenue": 1328971.0,
+      "signal": "空仓 (Empty)",
+      "equity": 113037.18
+    },
+    {
+      "date": "2025-08-20",
+      "price": 0.002816,
+      "revenue": 1352573.0,
+      "signal": "空仓 (Empty)",
+      "equity": 113037.18
+    },
+    {
+      "date": "2025-08-19",
+      "price": 0.003109,
+      "revenue": 1235173.0,
+      "signal": "空仓 (Empty)",
+      "equity": 113037.18
+    },
+    {
+      "date": "2025-08-18",
+      "price": 0.003666,
+      "revenue": 1662114.0,
+      "signal": "空仓 (Empty)",
+      "equity": 113037.18
+    },
+    {
+      "date": "2025-08-17",
+      "price": 0.003494,
+      "revenue": 1338127.0,
+      "signal": "空仓 (Empty)",
+      "equity": 107728.79
+    },
+    {
+      "date": "2025-08-16",
+      "price": 0.003471,
+      "revenue": 1399407.0,
+      "signal": "看多 (Long)",
+      "equity": 107027.2
+    },
+    {
+      "date": "2025-08-15",
+      "price": 0.003617,
+      "revenue": 1516868.0,
+      "signal": "看多 (Long)",
+      "equity": 111535.81
+    },
+    {
+      "date": "2025-08-14",
+      "price": 0.003981,
+      "revenue": 1853243.0,
+      "signal": "看多 (Long)",
+      "equity": 122770.24
+    },
+    {
+      "date": "2025-08-13",
+      "price": 0.004007,
+      "revenue": 2286960.0,
+      "signal": "看多 (Long)",
+      "equity": 123545.35
+    },
+    {
+      "date": "2025-08-12",
+      "price": 0.003447,
+      "revenue": 1837848.0,
+      "signal": "看多 (Long)",
+      "equity": 106292.59
+    },
+    {
+      "date": "2025-08-11",
+      "price": 0.003114,
+      "revenue": 1806868.0,
+      "signal": "看多 (Long)",
+      "equity": 96025.72
+    },
+    {
+      "date": "2025-08-10",
+      "price": 0.003139,
+      "revenue": 1277209.0,
+      "signal": "看多 (Long)",
+      "equity": 96777.73
+    },
+    {
+      "date": "2025-08-09",
+      "price": 0.003389,
+      "revenue": 1237787.0,
+      "signal": "看多 (Long)",
+      "equity": 104499.91
+    },
+    {
+      "date": "2025-08-08",
+      "price": 0.003566,
+      "revenue": 1310956.0,
+      "signal": "看多 (Long)",
+      "equity": 109964.35
+    },
+    {
+      "date": "2025-08-07",
+      "price": 0.003418,
+      "revenue": 1279405.0,
+      "signal": "看多 (Long)",
+      "equity": 105401.55
+    },
+    {
+      "date": "2025-08-06",
+      "price": 0.003243,
+      "revenue": 1470806.0,
+      "signal": "看多 (Long)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-08-05",
+      "price": 0.00312,
+      "revenue": 707463.0,
+      "signal": "看多 (Long)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-08-04",
+      "price": 0.002913,
+      "revenue": 272375.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-08-03",
+      "price": 0.002741,
+      "revenue": 169653.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-08-02",
+      "price": 0.00258,
+      "revenue": 180841.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-08-01",
+      "price": 0.002522,
+      "revenue": 161078.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-31",
+      "price": 0.002733,
+      "revenue": 241957.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-30",
+      "price": 0.002802,
+      "revenue": 204571.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-29",
+      "price": 0.002445,
+      "revenue": 224768.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-28",
+      "price": 0.002618,
+      "revenue": 191442.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-27",
+      "price": 0.002842,
+      "revenue": 194654.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-26",
+      "price": 0.002735,
+      "revenue": 237385.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-25",
+      "price": 0.002647,
+      "revenue": 249263.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-24",
+      "price": 0.003081,
+      "revenue": 299446.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-23",
+      "price": 0.003799,
+      "revenue": 382232.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-22",
+      "price": 0.004163,
+      "revenue": 525095.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-21",
+      "price": 0.004245,
+      "revenue": 467307.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-20",
+      "price": 0.004113,
+      "revenue": 420367.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-19",
+      "price": 0.004235,
+      "revenue": 454334.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-18",
+      "price": 0.00497,
+      "revenue": 494542.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-17",
+      "price": 0.005819,
+      "revenue": 580853.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-16",
+      "price": 0.00681,
+      "revenue": 715125.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-15",
+      "price": 0.005839,
+      "revenue": 727134.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
+    },
+    {
+      "date": "2025-07-14",
+      "price": 0.005839,
+      "revenue": 645361.0,
+      "signal": "空仓 (Empty)",
+      "equity": 100000.0
     }
   ]
 }
