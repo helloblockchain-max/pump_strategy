@@ -1,0 +1,42 @@
+name: Update Data and Deploy
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Update Data
+        run: |
+          # This is the placeholder script that will fetch from an API
+          # Currently it does nothing and preserves the initial data.json 
+          # generated from the local Excel file.
+          # When you have an API, put your python fetching logic in a file 
+          # e.g., update_data.py and run it here:
+          # python update_data.py
+          echo "Data updated placeholder."
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          commit_message: "Automated deployment: update data.json"
