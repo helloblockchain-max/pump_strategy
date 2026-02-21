@@ -1,5 +1,6 @@
 // ============================================================
-// Pump Strategy - Client-Side Backtesting Engine
+// Pump Strategy V2 - Anti-Overfitting Client-Side Engine
+// Multi-Window Voting (3/7/14 days) + Trailing Stop
 // ============================================================
 
 let RAW_DATA = [];
@@ -14,29 +15,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('last-updated').textContent = payload.last_updated;
         RAW_DATA = payload.raw_data;
 
-        // Init chart instance
         myChart = echarts.init(document.getElementById('main-chart'));
         window.addEventListener('resize', () => myChart && myChart.resize());
 
-        // Wire slider events
-        const sliderWindow = document.getElementById('p-window');
-        const sliderSMA = document.getElementById('p-sma');
+        // Wire trailing stop slider
+        const sliderTS = document.getElementById('p-ts');
 
-        const update = () => runBacktest(
-            parseInt(sliderWindow.value),
-            parseInt(sliderSMA.value)
-        );
+        const update = () => runBacktest(parseInt(sliderTS.value) / 100);
 
-        sliderWindow.addEventListener('input', () => {
-            document.getElementById('v-window').textContent = sliderWindow.value;
-            update();
-        });
-        sliderSMA.addEventListener('input', () => {
-            document.getElementById('v-sma').textContent = sliderSMA.value;
+        sliderTS.addEventListener('input', () => {
+            document.getElementById('v-ts').textContent = sliderTS.value;
             update();
         });
 
-        // Initial run with defaults
+        // Initial run with default (10%)
         update();
 
     } catch (err) {
@@ -46,44 +38,61 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 // ============================================================
-// Core Backtesting Engine (runs entirely in the browser)
+// Core V2 Backtesting Engine
+// Fixed windows [3, 7, 14] - NOT adjustable (prevents overfitting)
+// Only parameter: trailing_stop_pct
 // ============================================================
 
-function runBacktest(window_days, sma_days) {
+function runBacktest(trailingStopPct) {
     if (!RAW_DATA || RAW_DATA.length < 2) return;
 
     const data = RAW_DATA;
     const n = data.length;
+    const windows = [3, 7, 14]; // Fixed ensemble windows
+    const minLookback = Math.max(...windows) * 2;
 
-    // --- 1. Compute Signals ---
+    // --- 1. Compute Signals with Multi-Window Voting + Trailing Stop ---
     const signals = new Array(n).fill(0);
-    const minLookback = Math.max(2 * window_days, sma_days);
+    let peakPrice = 0;
+    let inPosition = false;
 
     for (let i = 0; i < n; i++) {
         if (i < minLookback) { signals[i] = 0; continue; }
 
-        // Recent vs Previous average revenue
-        let recentSum = 0, prevSum = 0;
-        for (let j = i - window_days; j < i; j++) recentSum += data[j].revenue;
-        for (let j = i - 2 * window_days; j < i - window_days; j++) prevSum += data[j].revenue;
-        const recentAvg = recentSum / window_days;
-        const prevAvg = prevSum / window_days;
+        // Multi-window voting
+        let votes = 0;
+        for (const w of windows) {
+            let recentSum = 0, prevSum = 0;
+            for (let j = i - w; j < i; j++) recentSum += data[j].revenue;
+            for (let j = i - 2 * w; j < i - w; j++) prevSum += data[j].revenue;
+            if (recentSum / w > prevSum / w) votes++;
+        }
 
-        // Price SMA risk filter
-        let smaSum = 0;
-        for (let j = i - sma_days; j < i; j++) smaSum += data[j].price;
-        const smaPrice = smaSum / sma_days;
+        const momentumSignal = votes >= 2 ? 1 : 0; // Majority vote
         const currPrice = data[i - 1].price;
-        const uptrend = currPrice >= smaPrice * 0.95;
 
-        const prevSignal = i > 0 ? signals[i - 1] : 0;
+        // Trailing stop logic
+        if (inPosition) {
+            if (currPrice > peakPrice) peakPrice = currPrice;
+            const dd = peakPrice > 0 ? (peakPrice - currPrice) / peakPrice : 0;
+            if (dd > trailingStopPct) {
+                signals[i] = 0;
+                inPosition = false;
+                continue;
+            }
+        }
 
-        if (recentAvg > prevAvg && uptrend) {
+        if (momentumSignal === 1 && !inPosition) {
             signals[i] = 1;
-        } else if (recentAvg < prevAvg || !uptrend) {
+            inPosition = true;
+            peakPrice = currPrice;
+        } else if (momentumSignal === 0 && inPosition) {
             signals[i] = 0;
+            inPosition = false;
+        } else if (inPosition) {
+            signals[i] = 1;
         } else {
-            signals[i] = prevSignal;
+            signals[i] = 0;
         }
     }
 
@@ -92,8 +101,6 @@ function runBacktest(window_days, sma_days) {
     let capital = initialCapital;
     let position = 0;
     const history = [];
-
-    // Buy & Hold benchmark
     const bhPosition = initialCapital / data[0].price;
 
     for (let i = 0; i < n; i++) {
@@ -126,7 +133,7 @@ function runBacktest(window_days, sma_days) {
     // --- 3. Compute Metrics ---
     const metrics = computeMetrics(history);
 
-    // --- 4. Render Everything ---
+    // --- 4. Render ---
     renderMetrics(metrics);
     renderChart(history);
     renderHistoryTable(history);
@@ -152,7 +159,6 @@ function computeMetrics(history) {
 
     const sharpe = vol > 0 ? annReturn / vol : 0;
 
-    // Max Drawdown
     let peak = 0, maxDD = 0;
     for (const h of history) {
         if (h.equity > peak) peak = h.equity;
@@ -160,7 +166,6 @@ function computeMetrics(history) {
         if (dd > maxDD) maxDD = dd;
     }
 
-    // Win rate
     const trades = [];
     let inTrade = false, entryEq = 0;
     for (const h of history) {
@@ -181,7 +186,7 @@ function computeMetrics(history) {
 }
 
 // ============================================================
-// Rendering Functions
+// Rendering
 // ============================================================
 
 function renderMetrics(m) {
@@ -266,7 +271,6 @@ function renderHistoryTable(history) {
     if (!tbody) return;
     tbody.innerHTML = '';
 
-    // Show newest first
     const reversed = [...history].reverse();
 
     reversed.forEach(row => {

@@ -122,6 +122,12 @@ h1 span {
     color: var(--text-primary);
 }
 
+.strategy-desc {
+    font-size: 0.85rem;
+    color: var(--accent);
+    opacity: 0.8;
+}
+
 .controls-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
