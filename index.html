@@ -27,18 +27,15 @@
 
         <!-- Dynamic Parameters Control -->
         <section class="glass-panel controls-panel">
-            <h2>⚙️ 策略参数调节 (Dynamic Optimization)</h2>
+            <h2>⚙️ V2 策略参数调节 (Anti-Overfitting Engine)</h2>
+            <p class="strategy-desc">核心逻辑: 3/7/14天 三窗口投票信号 + 跟踪止损风控 | 仅一个可调参数</p>
             <div class="controls-grid">
                 <div class="control-group">
-                    <label for="p-window">基本面动能窗口 (Window Days): <span id="v-window" class="highlight">21</span></label>
-                    <input type="range" id="p-window" min="1" max="30" value="21">
-                </div>
-                <div class="control-group">
-                    <label for="p-sma">风险过滤均线 (SMA Days): <span id="v-sma" class="highlight">3</span></label>
-                    <input type="range" id="p-sma" min="1" max="30" value="3">
+                    <label for="p-ts">跟踪止损比例 (Trailing Stop %): <span id="v-ts" class="highlight">10</span>%</label>
+                    <input type="range" id="p-ts" min="3" max="30" value="10">
                 </div>
             </div>
-            <p class="hint">提示: 默认参数 (21, 3) 经过深度回测寻优，能在2月震荡下属市维持夏普比率大于 3.0。您可以随意拖动体验。</p>
+            <p class="hint">默认 10% 止损经 Walk-Forward 验证: 训练集 Sharpe 4.30, 样本外 Sharpe 5.68, 回撤 22.15%。拖动体验不同风控强度。</p>
         </section>
 
         <!-- Metrics Grid -->
