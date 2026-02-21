@@ -16,10 +16,10 @@ def fetch_and_export():
     print("=== Pump Strategy Auto-Updater ===")
     print(f"Running at: {datetime.utcnow().isoformat()}Z")
     
-    # --- 1. Fetch Revenue (Total: pump.fun + PumpSwap + Padre) ---
-    print("Fetching Pump TOTAL revenue from DefiLlama (pump.fun + PumpSwap + Padre)...")
+    # --- 1. Fetch Revenue (Protocol Revenue: used for PUMP buybacks) ---
+    print("Fetching Pump protocol revenue from DefiLlama (buyback-eligible income)...")
     res_revenue = requests.get(
-        'https://api.llama.fi/summary/fees/pump?dataType=dailyFees',
+        'https://api.llama.fi/summary/fees/pump?dataType=dailyRevenue',
         timeout=30
     )
     if res_revenue.status_code != 200:
