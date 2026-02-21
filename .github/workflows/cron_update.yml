@@ -12,27 +12,23 @@ permissions:
   contents: write
 
 jobs:
-  build-and-deploy:
+  update-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
-      - name: Update Data
-        run: |
-          # This is the placeholder script that will fetch from an API
-          # Currently it does nothing and preserves the initial data.json 
-          # generated from the local Excel file.
-          # When you have an API, put your python fetching logic in a file 
-          # e.g., update_data.py and run it here:
-          # python update_data.py
-          echo "Data updated placeholder."
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Fetch Latest Data from APIs
+        run: python update_data.py
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -40,4 +36,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
           publish_branch: gh-pages
-          commit_message: "Automated deployment: update data.json"
+          exclude_assets: '.github,__pycache__,*.py,*.pyc,deep_search.py,validate_strategy.py,strategy_v2.py,export_data.py,update_data.py'
+          commit_message: "Auto-update: refresh data from APIs"
